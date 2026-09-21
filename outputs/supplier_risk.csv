@@ -1,0 +1,49 @@
+supplier_id,supplier_name,invoices,invoiced,exceptions_raised,net_exposure,exposure_pct_of_spend
+SUP-0022,Nigel Compressor Services (Pty) Ltd,5,548296.92,8,552023.3300000001,100.7
+SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,5,365256.76,12,396178.52999999997,108.5
+SUP-0012,Tshwane Pneumatics (Pty) Ltd,5,522101.64,4,256586.01,49.1
+SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,11,1345973.64,9,210943.63999999998,15.7
+SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,8,217830.88999999998,11,198170.32,91.0
+SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,5,489142.19,5,177576.32,36.3
+SUP-0042,Crown Mines Motor Spares (Pty) Ltd,7,657532.84,8,154130.61,23.4
+SUP-0021,Witbank Belting (Pty) Ltd,2,114153.57999999999,6,114153.57999999999,100.0
+,Highveld Lubricants (Pty) Ltd Invoice No. INV2508005,1,110887.52,2,110887.52,100.0
+SUP-0001,Midrand Bearing Supplies (Pty) Ltd,9,257895.36000000002,8,107130.17,41.5
+SUP-0006,Highveld Lubricants (Pty) Ltd,3,99269.06999999999,4,100888.81999999999,101.6
+SUP-0045,Salt River Marine Fittings (Pty) Ltd,6,89811.54,9,92530.37000000001,103.0
+SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,5,190962.18000000002,8,85404.05,44.7
+SUP-0037,Denver Crane Services (Pty) Ltd,2,615717.13,2,79714.51999999999,12.9
+SUP-0023,Modderfontein Chemicals (Pty) Ltd,9,165725.14,7,73114.19,44.1
+SUP-0026,Brakpan Sheet Metal (Pty) Ltd,9,280517.79,7,64934.57,23.1
+SUP-0036,Booysens Battery Centre (Pty) Ltd,8,129862.86,6,60167.17,46.3
+SUP-0007,Cape Conveyor Systems (Pty) Ltd,7,586497.39,6,52724.11,9.0
+SUP-0003,Protea Hydraulics (Pty) Ltd,6,553615.5700000001,4,41944.45,7.6
+SUP-0024,Randburg Instrumentation (Pty) Ltd,8,291643.24,7,41333.23,14.2
+SUP-0010,Germiston Tool Hire (Pty) Ltd,6,356423.39,5,40041.94,11.2
+SUP-0014,Kempton Cable Works (Pty) Ltd,4,39412.93,9,39412.93,100.0
+SUP-0044,Village Main Instruments (Pty) Ltd,8,674362.9299999999,3,35834.740000000005,5.3
+SUP-0016,Benoni Industrial Paints (Pty) Ltd,6,140029.03,6,26620.059999999998,19.0
+SUP-0030,Elandsfontein Rubber (Pty) Ltd,9,165696.73,6,25686.86,15.5
+SUP-0034,Chamdor Forklift Spares (Pty) Ltd,7,166133.68,4,21630.76,13.0
+SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,5,169988.61,4,15362.39,9.0
+,Kya Sand Plastics (Pty) Ltd TAX INVOICE,1,14559.74,2,14559.74,100.0
+SUP-0019,Edenvale Filtration (Pty) Ltd,2,14371.580000000002,5,14371.580000000002,100.0
+SUP-0032,Linbro Park Hardware (Pty) Ltd,3,12562.42,5,14077.15,112.1
+SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,3,93240.49,4,12850.78,13.8
+SUP-0027,Kya Sand Plastics (Pty) Ltd,5,187978.64,4,12711.109999999999,6.8
+SUP-0009,Rand Safety Equipment (Pty) Ltd,3,12200.18,4,12270.220000000001,100.6
+,Sebenza Workwear (Pty) Ltd TAX INVOICE,1,12206.68,2,12206.68,100.0
+SUP-0018,Springs Gearbox Services (Pty) Ltd,4,65334.280000000006,2,12013.93,18.4
+SUP-0043,New Centre Gas and Gear (Pty) Ltd,6,92954.05,4,11687.65,12.6
+SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,4,63321.15,3,6485.88,10.2
+SUP-0005,Boksburg Fastener Co (Pty) Ltd,5,52550.65,5,6314.58,12.0
+SUP-0015,Alberton Seal and Gasket (Pty) Ltd,5,57096.33,4,4439.17,7.8
+SUP-0008,Umgeni Valve and Pump (Pty) Ltd,3,89341.54000000001,2,3976.2,4.5
+SUP-0031,Sebenza Workwear (Pty) Ltd,9,78054.01000000001,5,3017.21,3.9
+SUP-0035,Selby Scrap and Recovery (Pty) Ltd,5,88781.95000000001,2,2746.1499999999996,3.1
+SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,6,160963.93,4,2125.55,1.3
+SUP-0033,Aeroton Castors (Pty) Ltd,4,32396.39,1,1586.24,4.9
+SUP-0002,Vaal Steel Merchants (Pty) Ltd,4,95666.46,1,1148.99,1.2
+SUP-0013,Isando Welding Supplies (Pty) Ltd,1,11848.34,1,1091.68,9.2
+SUP-0011,Karoo Abrasives (Pty) Ltd,2,4869.21,3,730.38,15.0
+SUP-0029,Jet Park Packaging (Pty) Ltd,1,4481.96,0,0.0,0.0

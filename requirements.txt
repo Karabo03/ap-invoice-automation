@@ -1,0 +1,14 @@
+# Core
+pandas>=2.0
+openpyxl>=3.1
+
+# Reading PDFs
+pdfplumber>=0.11
+pymupdf>=1.24
+
+# Making the sample invoices
+reportlab>=4.0
+pillow>=10.0
+
+# The Claude API. Not needed if you only ever run with --fallback.
+anthropic>=0.40

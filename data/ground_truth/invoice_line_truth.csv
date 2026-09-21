@@ -1,0 +1,526 @@
+invoice_id,line_no,item_code,description,quantity,unit_price,line_total
+INV-00001,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,6,6509.81,39058.86
+INV-00002,1,WLD-MIG08,MIG wire 0.8mm 15kg spool,5,830.38,4151.9
+INV-00003,1,PIP-GAL50,Galvanised pipe 50mm medium 6m,7,6028.69,42200.83
+INV-00004,1,BRG-6205,Deep groove ball bearing 6205 2RS,2,556.95,1113.9
+INV-00004,2,DRV-TL2517,Taper lock bush 2517 x 45mm,25,588.4,14710.0
+INV-00005,1,WLD-E6013,Welding electrode E6013 3.2mm 5kg,3,330.5,991.5
+INV-00005,2,WLD-MIG08,MIG wire 0.8mm 15kg spool,1,1235.12,1235.12
+INV-00006,1,WLD-E6013,Welding electrode E6013 3.2mm 5kg,2,330.24,660.48
+INV-00006,2,WLD-MIG08,MIG wire 0.8mm 15kg spool,1,1132.95,1132.95
+INV-00007,1,HDW-PDL50,Brass padlock 50mm keyed alike,20,252.02,5040.4
+INV-00008,1,REF-CMP15,Refrigeration compressor 15HP semi hermetic,5,37569.94,187849.7
+INV-00008,2,REF-GAS404,Refrigerant R404a 10kg cylinder,10,8578.38,85783.8
+INV-00009,1,CHM-DEG25,Industrial degreaser 25 litre,6,1356.01,8136.06
+INV-00010,1,HDW-PDL50,Brass padlock 50mm keyed alike,8,251.24,2009.92
+INV-00010,2,HDW-CST100,Swivel castor 100mm braked,10,304.79,3047.9
+INV-00011,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,6,4468.31,26809.86
+INV-00012,1,BRG-6205,Deep groove ball bearing 6205 2RS,25,422.37,10559.25
+INV-00013,1,HDW-PDL50,Brass padlock 50mm keyed alike,1,305.62,305.62
+INV-00014,1,TLS-TRQ34,Torque wrench 3/4 drive 100 to 500Nm,2,4686.07,9372.14
+INV-00014,2,TLS-DRL18,Cordless drill 18V two battery kit,12,2778.46,33341.52
+INV-00014,3,TLS-GRN230,Angle grinder 230mm 2400W,4,4029.56,16118.24
+INV-00015,1,CHM-RUS05,Rust converter 5 litre,44,923.27,40623.88
+INV-00015,2,CHM-DEG25,Industrial degreaser 25 litre,3,1535.34,4606.02
+INV-00016,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,5,5577.7,27888.5
+INV-00017,1,DRV-TL2517,Taper lock bush 2517 x 45mm,10,521.71,5217.1
+INV-00018,1,SEL-GSK150,Full face gasket 150mm rubber insertion,4,165.96,663.84
+INV-00018,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,2,86.65,173.3
+INV-00018,3,SEL-ORK01,O ring kit nitrile 382 piece,2,1343.85,2687.7
+INV-00019,1,HYD-PMP45,Gear pump 45cc SAE B,3,5674.22,17022.66
+INV-00020,1,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,5,9426.72,47133.6
+INV-00020,2,MTR-REW11,Motor rewind 11kW including bearings,1,8615.26,8615.26
+INV-00021,1,HDW-PDL50,Brass padlock 50mm keyed alike,5,244.67,1223.35
+INV-00021,2,HDW-CST100,Swivel castor 100mm braked,5,385.98,1929.9
+INV-00022,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,10,5854.49,58544.9
+INV-00023,1,PNT-EPX20,Two pack epoxy enamel 20 litre,5,5233.6,26168.0
+INV-00023,2,PNT-PRM20,Zinc phosphate primer 20 litre,1,2917.79,2917.79
+INV-00024,1,REF-GAS404,Refrigerant R404a 10kg cylinder,2,7290.73,14581.46
+INV-00025,1,ELE-BAT100,Deep cycle battery 100Ah,4,3025.52,12102.08
+INV-00025,2,ELE-SWA4C,SWA cable 4 core 16mm per metre,10,232.33,2323.3
+INV-00026,1,PNT-EPX20,Two pack epoxy enamel 20 litre,6,5740.77,34444.62
+INV-00027,1,ELE-BAT100,Deep cycle battery 100Ah,3,3550.55,10651.65
+INV-00027,2,ELE-CB63,Circuit breaker 63A triple pole,1,918.09,918.09
+INV-00027,3,ELE-CON40,Contactor 40A 230V coil,5,1606.55,8032.75
+INV-00028,1,BRG-22216,Spherical roller bearing 22216 E,4,2075.43,8301.72
+INV-00028,2,DRV-TL2517,Taper lock bush 2517 x 45mm,2,668.45,1336.9
+INV-00028,3,BRG-6205,Deep groove ball bearing 6205 2RS,3,152.28,456.84
+INV-00029,1,ELE-BAT100,Deep cycle battery 100Ah,3,3550.55,10651.65
+INV-00029,2,ELE-CB63,Circuit breaker 63A triple pole,1,918.09,918.09
+INV-00029,3,ELE-CON40,Contactor 40A 230V coil,5,1606.55,8032.75
+INV-00030,1,TLS-DRL18,Cordless drill 18V two battery kit,2,3812.75,7625.5
+INV-00030,2,TLS-GRN230,Angle grinder 230mm 2400W,2,3123.34,6246.68
+INV-00030,3,TLS-TRQ34,Torque wrench 3/4 drive 100 to 500Nm,2,4226.49,8452.98
+INV-00031,1,SEL-GSK150,Full face gasket 150mm rubber insertion,4,287.15,1148.6
+INV-00031,2,SEL-ORK01,O ring kit nitrile 382 piece,2,1404.44,2808.88
+INV-00031,3,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,2,84.42,168.84
+INV-00032,1,REF-CMP15,Refrigeration compressor 15HP semi hermetic,8,24218.51,193748.08
+INV-00032,2,REF-GAS404,Refrigerant R404a 10kg cylinder,6,8012.92,48077.52
+INV-00033,1,PIP-FLG80,Slip on flange 80mm table D,2,442.18,884.36
+INV-00033,2,PIP-GAL50,Galvanised pipe 50mm medium 6m,6,1073.16,6438.96
+INV-00034,1,PPE-BOOT8,Safety boot steel toe size 8 pair,8,761.71,6093.68
+INV-00034,2,PPE-GLV10,Cut resistant glove level 5 pair,6,126.02,756.12
+INV-00035,1,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,25,3896.15,97403.75
+INV-00036,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,6,3039.86,18239.16
+INV-00036,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,50,3459.66,172983.0
+INV-00037,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,3,6201.91,18605.73
+INV-00037,2,INS-TMP01,PT100 temperature probe with head,3,1216.69,3650.07
+INV-00038,1,ELE-BAT100,Deep cycle battery 100Ah,4,3849.1,15396.4
+INV-00039,1,MTR-REW11,Motor rewind 11kW including bearings,6,12660.56,75963.36
+INV-00040,1,ELE-CON40,Contactor 40A 230V coil,2,974.82,1949.64
+INV-00040,2,ELE-SWA4C,SWA cable 4 core 16mm per metre,7,290.73,2035.11
+INV-00041,1,MTR-REW11,Motor rewind 11kW including bearings,5,9739.74,48698.7
+INV-00042,1,ELE-BAT100,Deep cycle battery 100Ah,6,2602.4,15614.4
+INV-00042,2,ELE-CB63,Circuit breaker 63A triple pole,3,1130.41,3391.23
+INV-00043,1,SEL-GSK150,Full face gasket 150mm rubber insertion,1,292.78,292.78
+INV-00044,1,PIP-FLG80,Slip on flange 80mm table D,1,393.86,393.86
+INV-00044,2,PIP-GAL50,Galvanised pipe 50mm medium 6m,4,1405.3,5621.2
+INV-00045,1,FST-NUTM12,Hex nut M12 grade 8 box of 200,4,458.38,1833.52
+INV-00045,2,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,50,1180.63,59031.5
+INV-00046,1,WLD-E6013,Welding electrode E6013 3.2mm 5kg,3,494.36,1483.08
+INV-00047,1,DRV-TL2517,Taper lock bush 2517 x 45mm,1,528.65,528.65
+INV-00047,2,BRG-6205,Deep groove ball bearing 6205 2RS,8,497.02,3976.16
+INV-00047,3,BRG-22216,Spherical roller bearing 22216 E,10,3976.23,39762.3
+INV-00048,1,HYD-FIT12,Swaged fitting 1/2 BSP male,20,122.87,2457.4
+INV-00049,1,REF-CMP15,Refrigeration compressor 15HP semi hermetic,5,34744.18,173720.9
+INV-00050,1,BRG-22216,Spherical roller bearing 22216 E,10,3152.62,31526.2
+INV-00050,2,DRV-TL2517,Taper lock bush 2517 x 45mm,10,451.78,4517.8
+INV-00050,3,BRG-6205,Deep groove ball bearing 6205 2RS,2,382.15,764.3
+INV-00051,1,ELE-CON40,Contactor 40A 230V coil,7,1004.11,7028.77
+INV-00051,2,ELE-SWA4C,SWA cable 4 core 16mm per metre,1,379.43,379.43
+INV-00052,1,TLS-TRQ34,Torque wrench 3/4 drive 100 to 500Nm,6,3531.53,21189.18
+INV-00053,1,PNU-FRL12,Filter regulator lubricator 1/2 inch,1,2045.5,2045.5
+INV-00054,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,10,725.19,7251.9
+INV-00055,1,REF-CMP15,Refrigeration compressor 15HP semi hermetic,2,27334.99,54669.98
+INV-00055,2,REF-GAS404,Refrigerant R404a 10kg cylinder,5,8073.09,40365.45
+INV-00056,1,PPE-BOOT8,Safety boot steel toe size 8 pair,20,530.17,10603.4
+INV-00056,2,PPE-HRN01,Full body safety harness double lanyard,1,1721.17,1721.17
+INV-00057,1,PIP-FLG80,Slip on flange 80mm table D,6,385.3,2311.8
+INV-00057,2,PIP-GAL50,Galvanised pipe 50mm medium 6m,8,1632.17,13057.36
+INV-00058,1,PIP-FLG80,Slip on flange 80mm table D,1,459.2,459.2
+INV-00059,1,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,12,3193.71,38324.52
+INV-00059,2,STL-RD304,Stainless round bar 304 20mm 6m,8,1904.42,15235.36
+INV-00059,3,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,35,964.12,33744.2
+INV-00060,1,FST-NUTM12,Hex nut M12 grade 8 box of 200,1,816.82,816.82
+INV-00060,2,FST-ANC12,Chemical anchor stud M12 x 160,1,87.64,87.64
+INV-00060,3,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,25,1047.98,26199.5
+INV-00061,1,PPE-HAT01,Hard hat vented with ratchet,20,115.25,2305.0
+INV-00061,2,PPE-HRN01,Full body safety harness double lanyard,6,2094.13,12564.78
+INV-00062,1,HDW-CST100,Swivel castor 100mm braked,6,396.56,2379.36
+INV-00062,2,HDW-PDL50,Brass padlock 50mm keyed alike,2,219.49,438.98
+INV-00063,1,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,1,2480.83,2480.83
+INV-00063,2,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,50,1175.57,58778.5
+INV-00064,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,1,6895.17,6895.17
+INV-00064,2,HYD-PMP45,Gear pump 45cc SAE B,5,5978.37,29891.85
+INV-00065,1,BRG-22216,Spherical roller bearing 22216 E,5,3531.21,17656.05
+INV-00065,2,DRV-SPB2120,SPB section V belt 2120mm,3,277.1,831.3
+INV-00066,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,9,6638.94,59750.46
+INV-00066,2,INS-TMP01,PT100 temperature probe with head,3,2101.43,6304.29
+INV-00067,1,HYD-PMP45,Gear pump 45cc SAE B,3,7110.71,21332.13
+INV-00067,2,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,17,9435.91,160410.47
+INV-00067,3,HYD-2SN12,Hydraulic hose 2SN 1/2 inch per metre,1,176.86,176.86
+INV-00067,4,HYD-FIT12,Swaged fitting 1/2 BSP male,1,159.33,159.33
+INV-00068,1,SEL-ORK01,O ring kit nitrile 382 piece,25,1343.64,33591.0
+INV-00068,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,25,94.08,2352.0
+INV-00069,1,STL-RD304,Stainless round bar 304 20mm 6m,4,2582.11,10328.44
+INV-00070,1,DRV-TL2517,Taper lock bush 2517 x 45mm,1,680.89,680.89
+INV-00070,2,BRG-22216,Spherical roller bearing 22216 E,5,3759.12,18795.6
+INV-00070,3,DRV-SPB2120,SPB section V belt 2120mm,1,225.6,225.6
+INV-00071,1,MTR-REW11,Motor rewind 11kW including bearings,25,10310.15,257753.75
+INV-00072,1,SEL-ORK01,O ring kit nitrile 382 piece,2,1322.08,2644.16
+INV-00072,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,7,94.81,663.67
+INV-00072,3,SEL-GSK150,Full face gasket 150mm rubber insertion,4,266.08,1064.32
+INV-00073,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,4,975.33,3901.32
+INV-00074,1,ELE-CB63,Circuit breaker 63A triple pole,4,690.25,2761.0
+INV-00074,2,ELE-SWA4C,SWA cable 4 core 16mm per metre,6,383.6,2301.6
+INV-00074,3,ELE-BAT100,Deep cycle battery 100Ah,12,2155.55,25866.6
+INV-00075,1,SEL-GSK150,Full face gasket 150mm rubber insertion,5,235.98,1179.9
+INV-00075,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,3,96.07,288.21
+INV-00076,1,HYD-PMP45,Gear pump 45cc SAE B,3,7696.84,23090.52
+INV-00077,1,CHM-RUS05,Rust converter 5 litre,4,1175.9,4703.6
+INV-00077,2,CHM-DEG25,Industrial degreaser 25 litre,4,1774.65,7098.6
+INV-00078,1,BRG-22216,Spherical roller bearing 22216 E,5,3971.8,19859.0
+INV-00078,2,DRV-SPB2120,SPB section V belt 2120mm,3,446.09,1338.27
+INV-00079,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,2,2817.78,5635.56
+INV-00079,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,2,3512.54,7025.08
+INV-00080,1,ELE-CB63,Circuit breaker 63A triple pole,3,887.99,2663.97
+INV-00080,2,ELE-SWA4C,SWA cable 4 core 16mm per metre,12,243.46,2921.52
+INV-00080,3,ELE-BAT100,Deep cycle battery 100Ah,6,2223.68,13342.08
+INV-00080,4,ELE-CON40,Contactor 40A 230V coil,5,1255.23,6276.15
+INV-00081,1,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,8,1059.4,8475.2
+INV-00081,2,CNV-IDL152,Trough idler set 152mm 650 belt,1,2490.06,2490.06
+INV-00082,1,TLS-GRN230,Angle grinder 230mm 2400W,1,3687.1,3687.1
+INV-00082,2,TLS-DRL18,Cordless drill 18V two battery kit,5,2626.95,13134.75
+INV-00082,3,TLS-TRQ34,Torque wrench 3/4 drive 100 to 500Nm,25,4988.52,124713.0
+INV-00083,1,PNT-EPX20,Two pack epoxy enamel 20 litre,8,3577.29,28618.32
+INV-00084,1,PNU-CMP75,Screw compressor service kit 7.5kW,3,8049.94,24149.82
+INV-00084,2,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,2,1951.87,3903.74
+INV-00084,3,PNU-FRL12,Filter regulator lubricator 1/2 inch,5,1771.62,8858.1
+INV-00085,1,FST-NUTM12,Hex nut M12 grade 8 box of 200,20,690.35,13807.0
+INV-00086,1,HYD-PMP45,Gear pump 45cc SAE B,1,5906.74,5906.74
+INV-00086,2,HYD-2SN12,Hydraulic hose 2SN 1/2 inch per metre,5,250.64,1253.2
+INV-00087,1,INS-TMP01,PT100 temperature probe with head,3,1279.76,3839.28
+INV-00088,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,6,3437.1,20622.6
+INV-00088,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,1,3983.82,3983.82
+INV-00089,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,20,7111.08,142221.6
+INV-00090,1,MTR-REW11,Motor rewind 11kW including bearings,50,9387.27,469363.5
+INV-00090,2,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,8,10866.04,86928.32
+INV-00091,1,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,6,2709.03,16254.18
+INV-00091,2,PNU-CMP75,Screw compressor service kit 7.5kW,1,8271.32,8271.32
+INV-00092,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,10,6946.71,69467.1
+INV-00092,2,HYD-2SN12,Hydraulic hose 2SN 1/2 inch per metre,2,169.36,338.72
+INV-00093,1,INS-TMP01,PT100 temperature probe with head,2,1369.84,2739.68
+INV-00094,1,REF-GAS404,Refrigerant R404a 10kg cylinder,1,5366.76,5366.76
+INV-00095,1,HYD-PMP45,Gear pump 45cc SAE B,50,7603.17,380158.5
+INV-00096,1,CNV-PUL400,Drum pulley 400mm lagged,5,12746.72,63733.6
+INV-00096,2,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,7,830.18,5811.26
+INV-00097,1,PNU-CMP75,Screw compressor service kit 7.5kW,20,6715.18,134303.6
+INV-00097,2,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,25,2467.89,61697.25
+INV-00098,1,ABR-CUT230,Cutting disc 230 x 3 x 22 box of 25,1,964.45,964.45
+INV-00098,2,ABR-FLP125,Flap disc 125mm 60 grit box of 10,2,414.48,828.96
+INV-00099,1,SEL-GSK150,Full face gasket 150mm rubber insertion,1,173.36,173.36
+INV-00099,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,6,132.77,796.62
+INV-00100,1,FST-ANC12,Chemical anchor stud M12 x 160,8,80.0,640.0
+INV-00101,1,STL-RD304,Stainless round bar 304 20mm 6m,1,2610.15,2610.15
+INV-00101,2,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,1,1853.05,1853.05
+INV-00102,1,BRG-6205,Deep groove ball bearing 6205 2RS,9,557.67,5019.03
+INV-00102,2,DRV-SPB2120,SPB section V belt 2120mm,1,395.8,395.8
+INV-00102,3,BRG-22216,Spherical roller bearing 22216 E,6,2002.83,12016.98
+INV-00103,1,PPE-GLV10,Cut resistant glove level 5 pair,2,169.29,338.58
+INV-00103,2,PPE-HRN01,Full body safety harness double lanyard,1,2498.65,2498.65
+INV-00103,3,PPE-BOOT8,Safety boot steel toe size 8 pair,10,729.44,7294.4
+INV-00103,4,PPE-HAT01,Hard hat vented with ratchet,1,108.59,108.59
+INV-00104,1,FST-NUTM12,Hex nut M12 grade 8 box of 200,4,410.44,1641.76
+INV-00104,2,FST-ANC12,Chemical anchor stud M12 x 160,1,77.02,77.02
+INV-00104,3,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,2,1319.66,2639.32
+INV-00105,1,FLT-AIR01,Compressor air filter element,6,505.81,3034.86
+INV-00105,2,FLT-HYD10,Hydraulic return filter element 10 micron,5,821.67,4108.35
+INV-00106,1,PIP-FLG80,Slip on flange 80mm table D,7,6103.57,42724.99
+INV-00107,1,PNU-CMP75,Screw compressor service kit 7.5kW,2,6023.69,12047.38
+INV-00108,1,FST-NUTM12,Hex nut M12 grade 8 box of 200,3,715.73,2147.19
+INV-00108,2,FST-ANC12,Chemical anchor stud M12 x 160,2,47.77,95.54
+INV-00109,1,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,3,634.96,1904.88
+INV-00110,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,3,993.49,2980.47
+INV-00110,2,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,6,891.0,5346.0
+INV-00110,3,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,8,2961.97,23695.76
+INV-00110,4,STL-RD304,Stainless round bar 304 20mm 6m,31,2538.01,78678.31
+INV-00111,1,PPE-BOOT8,Safety boot steel toe size 8 pair,5,464.58,2322.9
+INV-00111,2,PPE-GLV10,Cut resistant glove level 5 pair,5,183.41,917.05
+INV-00111,3,PPE-HRN01,Full body safety harness double lanyard,2,1860.64,3721.28
+INV-00112,1,SEL-GSK150,Full face gasket 150mm rubber insertion,10,194.68,1946.8
+INV-00113,1,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,1,586.53,586.53
+INV-00113,2,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,20,1851.54,37030.8
+INV-00113,3,STL-RD304,Stainless round bar 304 20mm 6m,3,2579.46,7738.38
+INV-00113,4,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,1,635.86,635.86
+INV-00114,1,HYD-2SN12,Hydraulic hose 2SN 1/2 inch per metre,1,306.39,306.39
+INV-00115,1,PNT-PRM20,Zinc phosphate primer 20 litre,3,2149.64,6448.92
+INV-00115,2,PNT-EPX20,Two pack epoxy enamel 20 litre,1,4033.37,4033.37
+INV-00116,1,DRV-TL2517,Taper lock bush 2517 x 45mm,8,664.36,5314.88
+INV-00116,2,DRV-SPB2120,SPB section V belt 2120mm,12,286.42,3437.04
+INV-00117,1,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,8,9242.17,73937.36
+INV-00118,1,INS-TMP01,PT100 temperature probe with head,3,2593.85,7781.55
+INV-00118,2,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,6,5354.6,32127.6
+INV-00119,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,2,2383.73,4767.46
+INV-00119,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,6,3779.13,22674.78
+INV-00120,1,ELE-CB63,Circuit breaker 63A triple pole,10,1046.13,10461.3
+INV-00120,2,ELE-BAT100,Deep cycle battery 100Ah,5,2476.75,12383.75
+INV-00120,3,ELE-CON40,Contactor 40A 230V coil,20,1403.68,28073.6
+INV-00121,1,PPE-HAT01,Hard hat vented with ratchet,1,131.9,131.9
+INV-00122,1,PNU-CMP75,Screw compressor service kit 7.5kW,25,6775.55,169388.75
+INV-00122,2,PNU-FRL12,Filter regulator lubricator 1/2 inch,25,1476.11,36902.75
+INV-00123,1,DRV-SPB2120,SPB section V belt 2120mm,50,420.7,21035.0
+INV-00124,1,TLS-TRQ34,Torque wrench 3/4 drive 100 to 500Nm,10,4684.98,46849.8
+INV-00124,2,TLS-DRL18,Cordless drill 18V two battery kit,25,4565.33,114133.25
+INV-00124,3,TLS-GRN230,Angle grinder 230mm 2400W,1,2218.43,2218.43
+INV-00125,1,PNU-FRL12,Filter regulator lubricator 1/2 inch,8,1593.73,12749.84
+INV-00125,2,PNU-CMP75,Screw compressor service kit 7.5kW,5,6127.92,30639.6
+INV-00125,3,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,1,2234.96,2234.96
+INV-00126,1,PIP-FLG80,Slip on flange 80mm table D,8,5246.38,41971.04
+INV-00127,1,PNT-EPX20,Two pack epoxy enamel 20 litre,3,3544.44,10633.32
+INV-00127,2,PNT-PRM20,Zinc phosphate primer 20 litre,1,2645.56,2645.56
+INV-00128,1,ABR-FLP125,Flap disc 125mm 60 grit box of 10,5,615.16,3075.8
+INV-00129,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,3,837.0,2511.0
+INV-00130,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,1,924.01,924.01
+INV-00131,1,DRV-SPB2120,SPB section V belt 2120mm,4,305.73,1222.92
+INV-00131,2,BRG-22216,Spherical roller bearing 22216 E,5,3634.77,18173.85
+INV-00131,3,BRG-6205,Deep groove ball bearing 6205 2RS,2,536.67,1073.34
+INV-00132,1,DRV-SPB2120,SPB section V belt 2120mm,3,231.1,693.3
+INV-00132,2,DRV-TL2517,Taper lock bush 2517 x 45mm,2,529.63,1059.26
+INV-00133,1,CHM-DEG25,Industrial degreaser 25 litre,5,1725.28,8626.4
+INV-00134,1,ELE-CB63,Circuit breaker 63A triple pole,3,1227.77,3683.31
+INV-00135,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,2,621.6,1243.2
+INV-00135,2,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,3,505.77,1517.31
+INV-00135,3,STL-RD304,Stainless round bar 304 20mm 6m,6,1578.54,9471.24
+INV-00135,4,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,10,2335.96,23359.6
+INV-00136,1,PIP-FLG80,Slip on flange 80mm table D,5,8537.91,42689.55
+INV-00137,1,REF-GAS404,Refrigerant R404a 10kg cylinder,25,8046.01,201150.25
+INV-00138,1,CHM-DEG25,Industrial degreaser 25 litre,3,1532.33,4596.99
+INV-00138,2,CHM-RUS05,Rust converter 5 litre,10,806.71,8067.1
+INV-00139,1,MTR-REW11,Motor rewind 11kW including bearings,1,9358.26,9358.26
+INV-00140,1,REF-GAS404,Refrigerant R404a 10kg cylinder,5,8079.44,40397.2
+INV-00141,1,PNU-CMP75,Screw compressor service kit 7.5kW,12,7818.94,93827.28
+INV-00141,2,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,1,1805.98,1805.98
+INV-00141,3,PNU-FRL12,Filter regulator lubricator 1/2 inch,6,2092.56,12555.36
+INV-00142,1,ELE-CON40,Contactor 40A 230V coil,4,1950.34,7801.36
+INV-00143,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,2,11463.26,22926.52
+INV-00143,2,HYD-2SN12,Hydraulic hose 2SN 1/2 inch per metre,1,227.62,227.62
+INV-00143,3,HYD-FIT12,Swaged fitting 1/2 BSP male,4,171.64,686.56
+INV-00143,4,HYD-PMP45,Gear pump 45cc SAE B,1,5698.65,5698.65
+INV-00144,1,PIP-GAL50,Galvanised pipe 50mm medium 6m,12,1827.8,21933.6
+INV-00144,2,PIP-FLG80,Slip on flange 80mm table D,2,360.52,721.04
+INV-00145,1,TLS-GRN230,Angle grinder 230mm 2400W,1,2411.93,2411.93
+INV-00145,2,TLS-TRQ34,Torque wrench 3/4 drive 100 to 500Nm,5,5921.9,29609.5
+INV-00145,3,TLS-DRL18,Cordless drill 18V two battery kit,5,3624.38,18121.9
+INV-00146,1,LUB-EP220,Gear oil EP220 208 litre drum,5,13212.89,66064.45
+INV-00147,1,SEL-ORK01,O ring kit nitrile 382 piece,21,976.88,20514.48
+INV-00148,1,MHD-FRK25,Forklift fork 2500kg pair class 2,3,13406.72,40220.16
+INV-00148,2,MHD-SLG03,Webbing sling 3 ton 4 metre,8,1114.67,8917.36
+INV-00149,1,MHD-SLG03,Webbing sling 3 ton 4 metre,20,1124.32,22486.4
+INV-00150,1,PPE-HAT01,Hard hat vented with ratchet,3,155.64,466.92
+INV-00151,1,PPE-HRN01,Full body safety harness double lanyard,5,2122.9,10614.5
+INV-00152,1,MTR-REW11,Motor rewind 11kW including bearings,5,7883.42,39417.1
+INV-00152,2,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,4,14267.8,57071.2
+INV-00153,1,PIP-GAL50,Galvanised pipe 50mm medium 6m,2,1835.41,3670.82
+INV-00154,1,PIP-FLG80,Slip on flange 80mm table D,2,486.84,973.68
+INV-00155,1,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,1,3203.75,3203.75
+INV-00155,2,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,2,643.76,1287.52
+INV-00155,3,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,3,1056.23,3168.69
+INV-00156,1,HDW-PDL50,Brass padlock 50mm keyed alike,3,275.21,825.63
+INV-00157,1,CHM-DEG25,Industrial degreaser 25 litre,6,1356.01,8136.06
+INV-00158,1,DRV-TL2517,Taper lock bush 2517 x 45mm,12,635.5,7626.0
+INV-00158,2,DRV-SPB2120,SPB section V belt 2120mm,8,228.13,1825.04
+INV-00159,1,PPE-BOOT8,Safety boot steel toe size 8 pair,5,752.03,3760.15
+INV-00160,1,MHD-FRK25,Forklift fork 2500kg pair class 2,1,12933.54,12933.54
+INV-00161,1,SEL-GSK150,Full face gasket 150mm rubber insertion,1,157.16,157.16
+INV-00162,1,CNV-IDL152,Trough idler set 152mm 650 belt,10,1627.84,16278.4
+INV-00163,1,BRG-22216,Spherical roller bearing 22216 E,10,2031.92,20319.2
+INV-00163,2,DRV-TL2517,Taper lock bush 2517 x 45mm,3,411.5,1234.5
+INV-00163,3,DRV-SPB2120,SPB section V belt 2120mm,1,386.05,386.05
+INV-00164,1,PPE-BOOT8,Safety boot steel toe size 8 pair,2,492.22,984.44
+INV-00164,2,PPE-GLV10,Cut resistant glove level 5 pair,6,155.85,935.1
+INV-00165,1,HYD-FIT12,Swaged fitting 1/2 BSP male,12,97.64,1171.68
+INV-00166,1,PNU-CMP75,Screw compressor service kit 7.5kW,50,4870.31,243515.5
+INV-00166,2,PNU-FRL12,Filter regulator lubricator 1/2 inch,1,2127.45,2127.45
+INV-00167,1,PNU-FRL12,Filter regulator lubricator 1/2 inch,1,2023.88,2023.88
+INV-00167,2,PNU-CMP75,Screw compressor service kit 7.5kW,19,4601.24,87423.56
+INV-00168,1,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,25,2827.69,70692.25
+INV-00168,2,PLA-PER06,Perspex sheet 6mm 1000 x 2000,1,2815.3,2815.3
+INV-00169,1,INS-TMP01,PT100 temperature probe with head,5,1827.73,9138.65
+INV-00169,2,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,3,4816.7,14450.1
+INV-00170,1,HYD-2SN12,Hydraulic hose 2SN 1/2 inch per metre,6,221.94,1331.64
+INV-00170,2,HYD-FIT12,Swaged fitting 1/2 BSP male,2,164.67,329.34
+INV-00171,1,WLD-MIG08,MIG wire 0.8mm 15kg spool,4,1386.9,5547.6
+INV-00171,2,WLD-E6013,Welding electrode E6013 3.2mm 5kg,20,509.03,10180.6
+INV-00171,3,WLD-HLM01,Auto darkening welding helmet,20,2460.3,49206.0
+INV-00172,1,DRV-SPB2120,SPB section V belt 2120mm,10,271.73,2717.3
+INV-00172,2,DRV-TL2517,Taper lock bush 2517 x 45mm,2,412.11,824.22
+INV-00172,3,BRG-22216,Spherical roller bearing 22216 E,10,3207.52,32075.2
+INV-00172,4,BRG-6205,Deep groove ball bearing 6205 2RS,50,355.0,17750.0
+INV-00173,1,ABR-CUT230,Cutting disc 230 x 3 x 22 box of 25,1,825.23,825.23
+INV-00174,1,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,12,935.75,11229.0
+INV-00174,2,FST-NUTM12,Hex nut M12 grade 8 box of 200,4,410.85,1643.4
+INV-00175,1,MTR-REW11,Motor rewind 11kW including bearings,5,7846.25,39231.25
+INV-00175,2,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,3,7215.81,21647.43
+INV-00176,1,PNU-FRL12,Filter regulator lubricator 1/2 inch,50,1615.23,80761.5
+INV-00176,2,PNU-CMP75,Screw compressor service kit 7.5kW,1,6376.9,6376.9
+INV-00176,3,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,1,2394.69,2394.69
+INV-00177,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,17,2693.36,45787.12
+INV-00177,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,4,3725.93,14903.72
+INV-00178,1,PPE-GLV10,Cut resistant glove level 5 pair,4,116.01,464.04
+INV-00179,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,12,2013.68,24164.16
+INV-00179,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,25,3560.95,89023.75
+INV-00180,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,17,2693.36,45787.12
+INV-00180,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,4,3725.93,14903.72
+INV-00181,1,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,4,125.96,503.84
+INV-00181,2,SEL-GSK150,Full face gasket 150mm rubber insertion,5,146.87,734.35
+INV-00181,3,SEL-ORK01,O ring kit nitrile 382 piece,8,1334.66,10677.28
+INV-00182,1,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,6,2918.0,17508.0
+INV-00182,2,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,1,754.83,754.83
+INV-00183,1,MHD-SLG03,Webbing sling 3 ton 4 metre,6,880.65,5283.9
+INV-00183,2,MHD-FRK25,Forklift fork 2500kg pair class 2,1,10779.2,10779.2
+INV-00184,1,CHM-RUS05,Rust converter 5 litre,4,711.69,2846.76
+INV-00184,2,CHM-DEG25,Industrial degreaser 25 litre,20,1768.14,35362.8
+INV-00185,1,FLT-AIR01,Compressor air filter element,6,875.27,5251.62
+INV-00185,2,FLT-HYD10,Hydraulic return filter element 10 micron,1,905.27,905.27
+INV-00186,1,VLV-GT80,Gate valve 80mm flanged,4,3551.75,14207.0
+INV-00187,1,WLD-E6013,Welding electrode E6013 3.2mm 5kg,8,635.01,5080.08
+INV-00187,2,WLD-HLM01,Auto darkening welding helmet,3,1740.94,5222.82
+INV-00188,1,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,4,2762.75,11051.0
+INV-00189,1,CNV-PUL400,Drum pulley 400mm lagged,4,8204.34,32817.36
+INV-00189,2,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,1,1359.63,1359.63
+INV-00190,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,10,1105.57,11055.7
+INV-00191,1,PPE-HAT01,Hard hat vented with ratchet,3,109.35,328.05
+INV-00191,2,PPE-BOOT8,Safety boot steel toe size 8 pair,3,474.73,1424.19
+INV-00192,1,REF-GAS404,Refrigerant R404a 10kg cylinder,20,8292.62,165852.4
+INV-00192,2,REF-CMP15,Refrigeration compressor 15HP semi hermetic,2,31995.08,63990.16
+INV-00193,1,PPE-GLV10,Cut resistant glove level 5 pair,1,121.14,121.14
+INV-00194,1,MHD-SLG03,Webbing sling 3 ton 4 metre,1,1237.46,1237.46
+INV-00194,2,MHD-FRK25,Forklift fork 2500kg pair class 2,1,11936.14,11936.14
+INV-00195,1,PIP-FLG80,Slip on flange 80mm table D,5,393.44,1967.2
+INV-00195,2,PIP-GAL50,Galvanised pipe 50mm medium 6m,5,1698.77,8493.85
+INV-00196,1,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,3,1287.51,3862.53
+INV-00196,2,CNV-PUL400,Drum pulley 400mm lagged,2,8368.34,16736.68
+INV-00196,3,CNV-IDL152,Trough idler set 152mm 650 belt,25,1910.62,47765.5
+INV-00197,1,VLV-BF100,Butterfly valve 100mm lever operated,4,2545.37,10181.48
+INV-00197,2,PMP-CEN55,Centrifugal pump 5.5kW end suction,1,21501.93,21501.93
+INV-00197,3,VLV-GT80,Gate valve 80mm flanged,1,3582.25,3582.25
+INV-00198,1,HYD-FIT12,Swaged fitting 1/2 BSP male,5,101.77,508.85
+INV-00199,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,5,12378.72,61893.6
+INV-00199,2,HYD-FIT12,Swaged fitting 1/2 BSP male,8,93.31,746.48
+INV-00199,3,HYD-PMP45,Gear pump 45cc SAE B,5,7561.17,37805.85
+INV-00200,1,PNT-PRM20,Zinc phosphate primer 20 litre,5,3265.27,16326.35
+INV-00200,2,PNT-EPX20,Two pack epoxy enamel 20 litre,2,3717.74,7435.48
+INV-00201,1,REF-GAS404,Refrigerant R404a 10kg cylinder,1,6239.6,6239.6
+INV-00201,2,REF-CMP15,Refrigeration compressor 15HP semi hermetic,5,28686.31,143431.55
+INV-00202,1,DRV-TL2517,Taper lock bush 2517 x 45mm,12,493.5,5922.0
+INV-00202,2,BRG-22216,Spherical roller bearing 22216 E,1,3147.6,3147.6
+INV-00203,1,HYD-FIT12,Swaged fitting 1/2 BSP male,25,181.27,4531.75
+INV-00204,1,INS-TMP01,PT100 temperature probe with head,25,1621.78,40544.5
+INV-00204,2,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,7,7478.35,52348.45
+INV-00205,1,PPE-HRN01,Full body safety harness double lanyard,3,2339.59,7018.77
+INV-00205,2,PPE-BOOT8,Safety boot steel toe size 8 pair,1,694.78,694.78
+INV-00205,3,PPE-GLV10,Cut resistant glove level 5 pair,2,162.36,324.72
+INV-00205,4,PPE-HAT01,Hard hat vented with ratchet,4,103.08,412.32
+INV-00206,1,REF-CMP15,Refrigeration compressor 15HP semi hermetic,1,24205.06,24205.06
+INV-00206,2,REF-GAS404,Refrigerant R404a 10kg cylinder,1,5551.71,5551.71
+INV-00207,1,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,12,923.68,11084.16
+INV-00208,1,PIP-FLG80,Slip on flange 80mm table D,6,707.41,4244.46
+INV-00208,2,PIP-GAL50,Galvanised pipe 50mm medium 6m,25,1620.02,40500.5
+INV-00209,1,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,1,7046.44,7046.44
+INV-00209,2,MTR-REW11,Motor rewind 11kW including bearings,6,11013.4,66080.4
+INV-00210,1,PIP-FLG80,Slip on flange 80mm table D,2,486.84,973.68
+INV-00211,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,4,10605.25,42421.0
+INV-00212,1,PKG-PLT12,Pallet wrap 500mm 20 micron roll,5,246.68,1233.4
+INV-00212,2,PKG-STR48,Strapping band 16mm x 1000m,1,677.75,677.75
+INV-00213,1,BRG-22216,Spherical roller bearing 22216 E,5,3383.07,16915.35
+INV-00213,2,DRV-SPB2120,SPB section V belt 2120mm,5,415.58,2077.9
+INV-00214,1,FST-ANC12,Chemical anchor stud M12 x 160,5,61.72,308.6
+INV-00215,1,PNU-CYL63,Pneumatic cylinder 63 bore 200 stroke,5,2344.64,11723.2
+INV-00215,2,PNU-CMP75,Screw compressor service kit 7.5kW,6,6920.94,41525.64
+INV-00215,3,PNU-FRL12,Filter regulator lubricator 1/2 inch,20,1697.61,33952.2
+INV-00216,1,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,2,1368.68,2737.36
+INV-00216,2,CNV-IDL152,Trough idler set 152mm 650 belt,5,2573.9,12869.5
+INV-00216,3,CNV-PUL400,Drum pulley 400mm lagged,10,9893.66,98936.6
+INV-00217,1,LUB-GRS18,Lithium complex grease EP2 18kg,4,2699.59,10798.36
+INV-00218,1,MTR-REW11,Motor rewind 11kW including bearings,6,12660.56,75963.36
+INV-00219,1,MHD-FRK25,Forklift fork 2500kg pair class 2,4,11835.97,47343.88
+INV-00219,2,MHD-SLG03,Webbing sling 3 ton 4 metre,5,963.46,4817.3
+INV-00220,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,2,6822.41,13644.82
+INV-00220,2,INS-TMP01,PT100 temperature probe with head,4,1726.09,6904.36
+INV-00221,1,HDW-PDL50,Brass padlock 50mm keyed alike,4,255.9,1023.6
+INV-00222,1,MHD-FRK25,Forklift fork 2500kg pair class 2,50,10405.11,520255.5
+INV-00222,2,MHD-SLG03,Webbing sling 3 ton 4 metre,2,1108.58,2217.16
+INV-00223,1,LUB-HYD46,Hydraulic oil ISO 46 20 litre,20,1222.74,24454.8
+INV-00223,2,LUB-EP220,Gear oil EP220 208 litre drum,5,11870.61,59353.05
+INV-00223,3,LUB-GRS18,Lithium complex grease EP2 18kg,6,2102.68,12616.08
+INV-00224,1,ELE-SWA4C,SWA cable 4 core 16mm per metre,1,263.83,263.83
+INV-00224,2,ELE-CB63,Circuit breaker 63A triple pole,5,915.2,4576.0
+INV-00225,1,TLS-GRN230,Angle grinder 230mm 2400W,5,3016.63,15083.15
+INV-00226,1,LUB-GRS18,Lithium complex grease EP2 18kg,4,2699.59,10798.36
+INV-00227,1,PPE-HAT01,Hard hat vented with ratchet,1,152.55,152.55
+INV-00227,2,PPE-GLV10,Cut resistant glove level 5 pair,3,174.78,524.34
+INV-00227,3,PPE-BOOT8,Safety boot steel toe size 8 pair,10,642.85,6428.5
+INV-00227,4,PPE-HRN01,Full body safety harness double lanyard,12,2105.6,25267.2
+INV-00228,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,3,6201.91,18605.73
+INV-00228,2,INS-TMP01,PT100 temperature probe with head,3,1216.69,3650.07
+INV-00229,1,DRV-TL2517,Taper lock bush 2517 x 45mm,2,635.2,1270.4
+INV-00229,2,DRV-SPB2120,SPB section V belt 2120mm,25,257.52,6438.0
+INV-00229,3,BRG-6205,Deep groove ball bearing 6205 2RS,4,271.33,1085.32
+INV-00230,1,SEL-ORK01,O ring kit nitrile 382 piece,1,1535.15,1535.15
+INV-00230,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,20,126.22,2524.4
+INV-00230,3,SEL-GSK150,Full face gasket 150mm rubber insertion,10,244.27,2442.7
+INV-00231,1,ELE-CB63,Circuit breaker 63A triple pole,4,750.28,3001.12
+INV-00231,2,ELE-SWA4C,SWA cable 4 core 16mm per metre,3,249.37,748.11
+INV-00232,1,CNV-PUL400,Drum pulley 400mm lagged,4,12850.96,51403.84
+INV-00233,1,MHD-FRK25,Forklift fork 2500kg pair class 2,1,9519.23,9519.23
+INV-00233,2,MHD-SLG03,Webbing sling 3 ton 4 metre,1,1296.87,1296.87
+INV-00234,1,SEL-ORK01,O ring kit nitrile 382 piece,25,1172.86,29321.5
+INV-00235,1,PNU-CMP75,Screw compressor service kit 7.5kW,3,4742.26,14226.78
+INV-00236,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,50,4771.91,238595.5
+INV-00237,1,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,10,1140.72,11407.2
+INV-00237,2,FST-NUTM12,Hex nut M12 grade 8 box of 200,50,809.4,40470.0
+INV-00237,3,FST-ANC12,Chemical anchor stud M12 x 160,20,77.27,1545.4
+INV-00238,1,REF-GAS404,Refrigerant R404a 10kg cylinder,20,6133.9,122678.0
+INV-00238,2,REF-CMP15,Refrigeration compressor 15HP semi hermetic,32,37065.58,1186098.56
+INV-00239,1,FST-NUTM12,Hex nut M12 grade 8 box of 200,20,727.44,14548.8
+INV-00240,1,STL-ANG40,Equal angle 40 x 40 x 5mm 6m,1,586.53,586.53
+INV-00240,2,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,20,1851.54,37030.8
+INV-00240,3,STL-RD304,Stainless round bar 304 20mm 6m,3,2579.46,7738.38
+INV-00240,4,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,1,635.86,635.86
+INV-00241,1,STL-RD304,Stainless round bar 304 20mm 6m,2,1440.53,2881.06
+INV-00241,2,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,10,792.38,7923.8
+INV-00242,1,STL-SQ50,Square tube 50 x 50 x 3mm 6m length,2,919.45,1838.9
+INV-00242,2,STL-RD304,Stainless round bar 304 20mm 6m,4,1560.87,6243.48
+INV-00242,3,STL-PL6MS,Mild steel plate 6mm 1000 x 2000,4,2829.76,11319.04
+INV-00243,1,CHM-DEG25,Industrial degreaser 25 litre,8,1634.03,13072.24
+INV-00243,2,CHM-RUS05,Rust converter 5 litre,3,1089.26,3267.78
+INV-00244,1,MTR-REW11,Motor rewind 11kW including bearings,6,8551.81,51310.86
+INV-00244,2,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,5,9263.86,46319.3
+INV-00245,1,LUB-GRS18,Lithium complex grease EP2 18kg,6,1811.1,10866.6
+INV-00246,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,3,7047.89,21143.67
+INV-00246,2,HYD-FIT12,Swaged fitting 1/2 BSP male,1,151.25,151.25
+INV-00246,3,HYD-PMP45,Gear pump 45cc SAE B,1,8658.63,8658.63
+INV-00247,1,SEL-GSK150,Full face gasket 150mm rubber insertion,50,198.07,9903.5
+INV-00248,1,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,4,1267.53,5070.12
+INV-00248,2,CNV-PUL400,Drum pulley 400mm lagged,20,10808.97,216179.4
+INV-00248,3,CNV-IDL152,Trough idler set 152mm 650 belt,4,1687.48,6749.92
+INV-00249,1,HYD-FIT12,Swaged fitting 1/2 BSP male,10,125.56,1255.6
+INV-00249,2,HYD-PMP45,Gear pump 45cc SAE B,3,6424.7,19274.1
+INV-00250,1,CNV-PUL400,Drum pulley 400mm lagged,4,8084.21,32336.84
+INV-00250,2,CNV-IDL152,Trough idler set 152mm 650 belt,1,1589.19,1589.19
+INV-00250,3,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,1,1101.12,1101.12
+INV-00251,1,PNT-PRM20,Zinc phosphate primer 20 litre,2,3691.76,7383.52
+INV-00251,2,PNT-EPX20,Two pack epoxy enamel 20 litre,2,4291.84,8583.68
+INV-00252,1,WLD-E6013,Welding electrode E6013 3.2mm 5kg,3,363.43,1090.29
+INV-00252,2,WLD-HLM01,Auto darkening welding helmet,3,1766.94,5300.82
+INV-00253,1,DRV-TL2517,Taper lock bush 2517 x 45mm,1,528.65,528.65
+INV-00253,2,BRG-6205,Deep groove ball bearing 6205 2RS,8,497.02,3976.16
+INV-00253,3,BRG-22216,Spherical roller bearing 22216 E,10,3976.23,39762.3
+INV-00254,1,PMP-CEN55,Centrifugal pump 5.5kW end suction,1,26611.16,26611.16
+INV-00255,1,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,3,7394.7,22184.1
+INV-00255,2,INS-TMP01,PT100 temperature probe with head,2,1790.55,3581.1
+INV-00256,1,PIP-FLG80,Slip on flange 80mm table D,4,538.74,2154.96
+INV-00256,2,PIP-GAL50,Galvanised pipe 50mm medium 6m,2,1313.67,2627.34
+INV-00257,1,HDW-PDL50,Brass padlock 50mm keyed alike,1,291.64,291.64
+INV-00258,1,MHD-FRK25,Forklift fork 2500kg pair class 2,10,14341.49,143414.9
+INV-00258,2,MHD-SLG03,Webbing sling 3 ton 4 metre,3,887.74,2663.22
+INV-00259,1,DRV-TL2517,Taper lock bush 2517 x 45mm,5,345.45,1727.25
+INV-00259,2,BRG-22216,Spherical roller bearing 22216 E,3,3587.37,10762.11
+INV-00259,3,BRG-6205,Deep groove ball bearing 6205 2RS,6,466.35,2798.1
+INV-00260,1,MHD-FRK25,Forklift fork 2500kg pair class 2,1,10238.48,10238.48
+INV-00261,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,3,2896.76,8690.28
+INV-00262,1,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,1,881.51,881.51
+INV-00262,2,FST-ANC12,Chemical anchor stud M12 x 160,2,73.5,147.0
+INV-00263,1,CNV-PUL400,Drum pulley 400mm lagged,3,10507.51,31522.53
+INV-00263,2,CNV-BLT650,Conveyor belting 650mm 3 ply per metre,12,721.4,8656.8
+INV-00264,1,PLA-PER06,Perspex sheet 6mm 1000 x 2000,1,2126.14,2126.14
+INV-00264,2,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,1,3708.68,3708.68
+INV-00265,1,FST-M12X60,Hex bolt M12 x 60 grade 8.8 box of 100,3,1100.42,3301.26
+INV-00266,1,INS-TMP01,PT100 temperature probe with head,6,1418.31,8509.86
+INV-00266,2,INS-PRS16,Pressure transmitter 0 to 16 bar 4 to 20mA,8,5526.12,44208.96
+INV-00267,1,CHM-DEG25,Industrial degreaser 25 litre,1,1275.36,1275.36
+INV-00268,1,INS-TMP01,PT100 temperature probe with head,12,1962.54,23550.48
+INV-00269,1,PLA-HDPE10,HDPE sheet 10mm 1000 x 2000,4,4226.46,16905.84
+INV-00269,2,PLA-PER06,Perspex sheet 6mm 1000 x 2000,8,2557.23,20457.84
+INV-00270,1,HYD-CYL80,Hydraulic cylinder 80 bore 400 stroke,4,9447.58,37790.32
+INV-00271,1,SEL-ORK01,O ring kit nitrile 382 piece,12,1390.11,16681.32
+INV-00272,1,HYD-FIT12,Swaged fitting 1/2 BSP male,10,186.5,1865.0
+INV-00273,1,HYD-PMP45,Gear pump 45cc SAE B,50,7603.17,380158.5
+INV-00274,1,PIP-GAL50,Galvanised pipe 50mm medium 6m,1,1751.04,1751.04
+INV-00274,2,PIP-FLG80,Slip on flange 80mm table D,4,449.03,1796.12
+INV-00275,1,MHD-SLG03,Webbing sling 3 ton 4 metre,7,1310.84,9175.88
+INV-00275,2,MHD-FRK25,Forklift fork 2500kg pair class 2,1,13372.98,13372.98
+INV-00276,1,PKG-PLT12,Pallet wrap 500mm 20 micron roll,12,324.78,3897.36
+INV-00277,1,MTR-55KW4,Electric motor 5.5kW 4 pole foot mount,2,11679.48,23358.96
+INV-00278,1,HDW-PDL50,Brass padlock 50mm keyed alike,3,314.36,943.08
+INV-00278,2,HDW-CST100,Swivel castor 100mm braked,50,404.65,20232.5
+INV-00279,1,WLD-E6013,Welding electrode E6013 3.2mm 5kg,5,377.82,1889.1
+INV-00280,1,REF-CMP15,Refrigeration compressor 15HP semi hermetic,1,24205.06,24205.06
+INV-00280,2,REF-GAS404,Refrigerant R404a 10kg cylinder,1,5551.71,5551.71
+INV-00281,1,PNT-EPX20,Two pack epoxy enamel 20 litre,5,3575.73,17878.65
+INV-00282,1,SEL-GSK150,Full face gasket 150mm rubber insertion,3,281.7,845.1
+INV-00282,2,SEL-OIL45,Oil seal 45 x 65 x 10 nitrile,3,142.12,426.36
+INV-00282,3,SEL-ORK01,O ring kit nitrile 382 piece,4,1417.23,5668.92
+INV-00283,1,ELE-SWA4C,SWA cable 4 core 16mm per metre,4,260.56,1042.24
+INV-00283,2,ELE-CON40,Contactor 40A 230V coil,4,2180.92,8723.68
+INV-00284,1,SEL-ORK01,O ring kit nitrile 382 piece,50,1084.5,54225.0

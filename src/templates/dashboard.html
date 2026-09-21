@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accounts Payable Control Dashboard</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:        #f9f9f7;
+    --surface:     #fcfcfb;
+    --ink:         #0b0b0b;
+    --ink-2:       #52514e;
+    --muted:       #898781;
+    --grid:        #e1e0d9;
+    --axis:        #c3c2b7;
+    --border:      rgba(11,11,11,0.10);
+    --series-1:    #2a78d6;
+    --series-2:    #eb6834;
+    --good:        #0ca30c;
+    --warning:     #fab219;
+    --serious:     #ec835a;
+    --critical:    #d03b3b;
+    --tint:        rgba(42,120,214,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page:     #0d0d0d;
+      --surface:  #1a1a19;
+      --ink:      #ffffff;
+      --ink-2:    #c3c2b7;
+      --muted:    #898781;
+      --grid:     #2c2c2a;
+      --axis:     #383835;
+      --border:   rgba(255,255,255,0.10);
+      --series-1: #3987e5;
+      --series-2: #d95926;
+      --tint:     rgba(57,135,229,0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:     #0d0d0d;
+    --surface:  #1a1a19;
+    --ink:      #ffffff;
+    --ink-2:    #c3c2b7;
+    --muted:    #898781;
+    --grid:     #2c2c2a;
+    --axis:     #383835;
+    --border:   rgba(255,255,255,0.10);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --tint:     rgba(57,135,229,0.14);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 40px 16px 72px; }
+
+  header { margin-bottom: 28px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); font-size: 14px; margin: 0; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .badge {
+    font-size: 12px; padding: 4px 10px; border-radius: 999px;
+    border: 1px solid var(--border); color: var(--ink-2); background: var(--surface);
+  }
+
+  .tiles {
+    display: grid; gap: 12px; margin-bottom: 28px;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+  }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px 18px;
+  }
+  .tile .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .tile .value { font-size: 27px; font-weight: 600; margin-top: 6px; letter-spacing: -0.02em; }
+  .tile .note  { font-size: 12.5px; color: var(--ink-2); margin-top: 4px; }
+
+  section {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 22px 24px; margin-bottom: 20px;
+  }
+  h2 { font-size: 16px; margin: 0 0 3px; font-weight: 600; }
+  .lede { font-size: 13.5px; color: var(--ink-2); margin: 0 0 18px; }
+
+  .grid2 { display: grid; gap: 20px; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+
+  svg { display: block; width: 100%; overflow: visible; }
+  .tick { fill: var(--muted); font-size: 11.5px; }
+  .barlabel { fill: var(--ink-2); font-size: 12.5px; }
+  .barvalue { fill: var(--ink); font-size: 12.5px; font-weight: 600; }
+  .gridline { stroke: var(--grid); stroke-width: 1; }
+  .baseline { stroke: var(--axis); stroke-width: 1; }
+  .bar { fill: var(--series-1); transition: opacity .12s; }
+  .hit { fill: transparent; cursor: default; }
+  .row:hover .bar { opacity: .78; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th {
+    text-align: left; font-weight: 600; color: var(--muted); font-size: 11.5px;
+    text-transform: uppercase; letter-spacing: .05em;
+    padding: 0 10px 8px 0; border-bottom: 1px solid var(--border);
+  }
+  td { padding: 11px 10px 11px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .dim { color: var(--ink-2); }
+
+  .sev { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; font-size: 12.5px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .sev-HIGH   .dot { background: var(--critical); }
+  .sev-MEDIUM .dot { background: var(--serious); }
+  .sev-LOW    .dot { background: var(--warning); }
+
+  .meter { height: 6px; border-radius: 3px; background: var(--tint); overflow: hidden; min-width: 54px; }
+  .meter > i { display: block; height: 100%; border-radius: 3px; background: var(--series-1); }
+
+  .tip {
+    position: fixed; pointer-events: none; opacity: 0; transform: translate(-50%, -120%);
+    background: var(--ink); color: var(--page); font-size: 12.5px; line-height: 1.4;
+    padding: 7px 10px; border-radius: 7px; white-space: nowrap; z-index: 20;
+    transition: opacity .1s;
+  }
+  .foot { color: var(--muted); font-size: 12.5px; margin-top: 26px; }
+  details summary { cursor: pointer; font-size: 13px; color: var(--ink-2); margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title">Accounts payable control dashboard</h1>
+    <p class="sub" id="subtitle"></p>
+    <div class="badges" id="badges"></div>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Where the money is at risk</h2>
+    <p class="lede" id="lede-control"></p>
+    <div id="chart-control"></div>
+  </section>
+
+  <div class="grid2">
+    <section>
+      <h2>Exposure by month</h2>
+      <p class="lede">Net exposure on invoices dated in each month.</p>
+      <div id="chart-month"></div>
+    </section>
+    <section>
+      <h2>Suppliers carrying the most risk</h2>
+      <p class="lede">The ten suppliers with the largest exposure.</p>
+      <div id="chart-supplier"></div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Did the controls actually work</h2>
+    <p class="lede" id="lede-perf"></p>
+    <div id="perf"></div>
+  </section>
+
+  <section>
+    <h2>Largest single findings</h2>
+    <p class="lede">Ranked by the amount that would have been paid away.</p>
+    <div id="top"></div>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('payload').textContent);
+const tip = document.getElementById('tip');
+
+const rand = v => 'R' + Math.round(v).toLocaleString('en-ZA');
+const randFull = v => 'R' + v.toLocaleString('en-ZA', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function showTip(e, html) {
+  tip.innerHTML = html;
+  tip.style.left = e.clientX + 'px';
+  tip.style.top = e.clientY + 'px';
+  tip.style.opacity = 1;
+}
+function hideTip() { tip.style.opacity = 0; }
+
+/* ---------------------------------------------------------------- header */
+const methodName = {
+  claude_text: 'Claude, text layer',
+  claude_vision: 'Claude, vision',
+  rules_fallback: 'Pattern matching fallback',
+}[D.extraction_method] || D.extraction_method;
+
+document.getElementById('subtitle').textContent =
+  D.company + '  ·  ' + D.period + '  ·  prepared ' + D.generated;
+
+const badges = ['Read by: ' + methodName, D.stats.invoices + ' invoices', 'Twelve controls'];
+if (D.extraction_seconds >= 1) {
+  badges.push('Batch read in ' + Math.round(D.extraction_seconds) + ' seconds');
+}
+document.getElementById('badges').innerHTML =
+  badges.map(t => '<span class="badge">' + esc(t) + '</span>').join('');
+
+/* ----------------------------------------------------------------- tiles */
+const s = D.stats;
+document.getElementById('tiles').innerHTML = [
+  ['Invoiced value checked', rand(s.invoiced), s.checked + ' invoices passed through the controls'],
+  ['Exposure found', rand(s.exposure), s.exposure_pct + ' percent of the value checked'],
+  ['Invoices flagged', s.flagged, s.findings + ' separate findings raised'],
+  ['Passed every control', s.clean, 'Cleared for payment without a query'],
+  ['Sent for manual capture', s.manual_capture, 'Could not be read well enough to check'],
+].map(([label, value, note]) =>
+  '<div class="tile"><div class="label">' + esc(label) + '</div>' +
+  '<div class="value">' + esc(value) + '</div>' +
+  '<div class="note">' + esc(note) + '</div></div>').join('');
+
+/* ------------------------------------------------------- horizontal bars */
+function fit(text, px) {
+  const max = Math.floor(px / 6.6);
+  return text.length <= max ? text : text.slice(0, Math.max(3, max - 1)).trimEnd() + '\u2026';
+}
+
+function hbars(el, rows, opts) {
+  const ROW = 30, PAD_T = 6, LABEL = opts.labelWidth || 232, VALUE = 96;
+  const W = el.clientWidth || 860;
+  const plot = Math.max(80, W - LABEL - VALUE);
+  const H = rows.length * ROW + PAD_T + 8;
+  const max = Math.max(...rows.map(r => r.value), 1);
+
+  let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" height="' + H + '" role="img">';
+  rows.forEach((r, i) => {
+    const y = PAD_T + i * ROW;
+    const w = Math.max(2, r.value / max * plot);
+    svg += '<g class="row">';
+    svg += '<text class="barlabel" x="0" y="' + (y + 15) + '">' +
+           esc(fit(r.label, LABEL - 12)) + '</text>';
+    svg += '<rect class="bar" x="' + LABEL + '" y="' + (y + 5) + '" width="' + w +
+           '" height="14" rx="4"/>';
+    svg += '<rect class="bar" x="' + LABEL + '" y="' + (y + 5) + '" width="' +
+           Math.min(4, w) + '" height="14"/>';
+    svg += '<text class="barvalue" x="' + (LABEL + w + 9) + '" y="' + (y + 16) + '">' +
+           esc(opts.format(r.value)) + '</text>';
+    svg += '<rect class="hit" x="0" y="' + y + '" width="' + W + '" height="' + ROW +
+           '" data-i="' + i + '"/>';
+    svg += '</g>';
+  });
+  svg += '</svg>';
+  el.innerHTML = svg;
+
+  el.querySelectorAll('.hit').forEach(h => {
+    const r = rows[+h.dataset.i];
+    h.addEventListener('mousemove', e => showTip(e, opts.tip(r)));
+    h.addEventListener('mouseleave', hideTip);
+  });
+}
+
+/* --------------------------------------------------------- vertical bars */
+function vbars(el, rows, opts) {
+  const W = el.clientWidth || 420, H = 240, L = 54, R = 8, T = 10, B = 34;
+  const plotW = W - L - R, plotH = H - T - B;
+  const max = Math.max(...rows.map(r => r.value), 1);
+  const step = plotW / rows.length;
+  const bw = Math.min(28, step * 0.62);
+
+  const ticks = 4;
+  let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" height="' + H + '" role="img">';
+  for (let t = 0; t <= ticks; t++) {
+    const v = max / ticks * t;
+    const y = T + plotH - (v / max) * plotH;
+    svg += '<line class="gridline" x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '"/>';
+    svg += '<text class="tick" x="' + (L - 8) + '" y="' + (y + 4) + '" text-anchor="end">' +
+           esc(opts.axis(v)) + '</text>';
+  }
+  rows.forEach((r, i) => {
+    const h = Math.max(2, r.value / max * plotH);
+    const x = L + i * step + (step - bw) / 2;
+    const y = T + plotH - h;
+    svg += '<g class="row">';
+    svg += '<rect class="bar" x="' + x + '" y="' + y + '" width="' + bw + '" height="' + h + '" rx="4"/>';
+    svg += '<rect class="bar" x="' + x + '" y="' + (T + plotH - Math.min(4, h)) + '" width="' + bw +
+           '" height="' + Math.min(4, h) + '"/>';
+    svg += '<rect class="hit" x="' + (L + i * step) + '" y="' + T + '" width="' + step +
+           '" height="' + plotH + '" data-i="' + i + '"/>';
+    svg += '</g>';
+    if (i % opts.every === 0) {
+      svg += '<text class="tick" x="' + (x + bw / 2) + '" y="' + (H - 14) +
+             '" text-anchor="middle">' + esc(r.label) + '</text>';
+    }
+  });
+  svg += '<line class="baseline" x1="' + L + '" x2="' + (W - R) + '" y1="' + (T + plotH) +
+         '" y2="' + (T + plotH) + '"/></svg>';
+  el.innerHTML = svg;
+
+  el.querySelectorAll('.hit').forEach(h => {
+    const r = rows[+h.dataset.i];
+    h.addEventListener('mousemove', e => showTip(e, opts.tip(r)));
+    h.addEventListener('mouseleave', hideTip);
+  });
+}
+
+/* --------------------------------------------------------------- render */
+const controlRows = D.by_control.map(c => ({
+  label: c.name, value: c.value_at_risk, code: c.code,
+  findings: c.findings, severity: c.severity,
+}));
+const topControl = controlRows[0];
+document.getElementById('lede-control').textContent =
+  topControl
+    ? 'The largest share sits under ' + topControl.label.toLowerCase() + ', ' +
+      randFull(topControl.value) + ' across ' + topControl.findings + ' findings.'
+    : 'No findings were raised.';
+
+hbars(document.getElementById('chart-control'), controlRows, {
+  format: rand,
+  tip: r => '<b>' + esc(r.label) + '</b><br>' + esc(r.code) + ' · ' + r.severity +
+            '<br>' + r.findings + ' findings · ' + randFull(r.value),
+});
+
+const monthLabel = m => {
+  const [y, mo] = m.split('-');
+  return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+mo - 1] +
+         ' ' + y.slice(2);
+};
+vbars(document.getElementById('chart-month'),
+  D.by_month.map(m => ({ label: monthLabel(m.month), value: m.net_exposure, raw: m })), {
+    axis: v => v >= 1000 ? 'R' + Math.round(v / 1000) + 'k' : 'R' + Math.round(v),
+    every: 2,
+    tip: r => '<b>' + esc(r.label) + '</b><br>' + r.raw.invoices + ' invoices · ' +
+              randFull(r.raw.invoiced) + ' invoiced<br>Exposure ' + randFull(r.value),
+  });
+
+hbars(document.getElementById('chart-supplier'),
+  D.by_supplier.map(x => ({
+    label: String(x.supplier_name).replace(' (Pty) Ltd', ''),
+    value: x.net_exposure, raw: x,
+  })), {
+    labelWidth: 176, format: rand,
+    tip: r => '<b>' + esc(r.label) + '</b><br>' + r.raw.invoices + ' invoices · ' +
+              randFull(r.raw.invoiced) + ' invoiced<br>Exposure ' + randFull(r.value),
+  });
+
+/* ------------------------------------------------- control performance */
+const acc = D.accuracy || {};
+document.getElementById('lede-perf').textContent = acc.planted
+  ? 'Every error in this data set was planted on purpose and recorded, so the ' +
+    'controls can be scored rather than trusted. Of ' + acc.planted +
+    ' planted errors the controls caught ' + acc.caught + ', a recall of ' +
+    acc.recall + ' percent, at a precision of ' + acc.precision + ' percent.'
+  : 'Run the accuracy step to score the controls against the planted errors.';
+
+if ((D.performance || []).length) {
+  const rows = D.performance.slice().sort((a, b) => (b.recall || 0) - (a.recall || 0));
+  document.getElementById('perf').innerHTML =
+    '<table><thead><tr><th>Control</th><th class="num">Planted</th>' +
+    '<th class="num">Caught</th><th class="num">False alarms</th>' +
+    '<th>Recall</th><th>Precision</th></tr></thead><tbody>' +
+    rows.map(r =>
+      '<tr><td>' + esc(r.name) + ' <span class="dim">' + esc(r.code.slice(0, 3)) + '</span></td>' +
+      '<td class="num">' + r.planted + '</td>' +
+      '<td class="num">' + r.hit + '</td>' +
+      '<td class="num">' + r.extra + '</td>' +
+      '<td><div style="display:flex;align-items:center;gap:8px">' +
+        '<div class="meter" style="flex:1"><i style="width:' + (r.recall || 0) + '%"></i></div>' +
+        '<span class="num" style="width:44px">' + (r.recall == null ? '—' : r.recall + '%') + '</span>' +
+      '</div></td>' +
+      '<td><div style="display:flex;align-items:center;gap:8px">' +
+        '<div class="meter" style="flex:1"><i style="width:' + (r.precision || 0) + '%"></i></div>' +
+        '<span class="num" style="width:44px">' + (r.precision == null ? '—' : r.precision + '%') + '</span>' +
+      '</div></td></tr>').join('') +
+    '</tbody></table>';
+}
+
+/* ------------------------------------------------------ top exceptions */
+document.getElementById('top').innerHTML =
+  '<table><thead><tr><th>Invoice</th><th>Supplier</th><th>Finding</th>' +
+  '<th class="num">At risk</th></tr></thead><tbody>' +
+  D.top_exceptions.map(e =>
+    '<tr><td class="dim">' + esc(e.invoice_id) + '<br>' + esc(e.invoice_date) + '</td>' +
+    '<td>' + esc(String(e.supplier_name).replace(' (Pty) Ltd', '')) + '</td>' +
+    '<td><span class="sev sev-' + esc(e.severity) + '"><span class="dot"></span>' +
+      esc(e.severity.charAt(0) + e.severity.slice(1).toLowerCase()) + '</span> ' +
+      esc(e.code) + '<br><span class="dim">' + esc(e.detail) + '</span>' +
+      '<details><summary>What the clerk should do</summary><span class="dim">' +
+      esc(e.recommendation) + '</span></details></td>' +
+    '<td class="num">' + randFull(e.value_at_risk) + '</td></tr>').join('') +
+  '</tbody></table>';
+
+document.getElementById('foot').textContent =
+  'Kalahari Components is a fictional company and every figure on this page comes ' +
+  'from generated data. The invoices were read by ' + methodName.toLowerCase() +
+  '. The controls that judged them are ordinary Python, with no model involved.';
+
+addEventListener('resize', () => location.reload());
+</script>
+</body>
+</html>

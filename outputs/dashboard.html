@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accounts Payable Control Dashboard</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:        #f9f9f7;
+    --surface:     #fcfcfb;
+    --ink:         #0b0b0b;
+    --ink-2:       #52514e;
+    --muted:       #898781;
+    --grid:        #e1e0d9;
+    --axis:        #c3c2b7;
+    --border:      rgba(11,11,11,0.10);
+    --series-1:    #2a78d6;
+    --series-2:    #eb6834;
+    --good:        #0ca30c;
+    --warning:     #fab219;
+    --serious:     #ec835a;
+    --critical:    #d03b3b;
+    --tint:        rgba(42,120,214,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page:     #0d0d0d;
+      --surface:  #1a1a19;
+      --ink:      #ffffff;
+      --ink-2:    #c3c2b7;
+      --muted:    #898781;
+      --grid:     #2c2c2a;
+      --axis:     #383835;
+      --border:   rgba(255,255,255,0.10);
+      --series-1: #3987e5;
+      --series-2: #d95926;
+      --tint:     rgba(57,135,229,0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:     #0d0d0d;
+    --surface:  #1a1a19;
+    --ink:      #ffffff;
+    --ink-2:    #c3c2b7;
+    --muted:    #898781;
+    --grid:     #2c2c2a;
+    --axis:     #383835;
+    --border:   rgba(255,255,255,0.10);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --tint:     rgba(57,135,229,0.14);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 40px 16px 72px; }
+
+  header { margin-bottom: 28px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); font-size: 14px; margin: 0; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .badge {
+    font-size: 12px; padding: 4px 10px; border-radius: 999px;
+    border: 1px solid var(--border); color: var(--ink-2); background: var(--surface);
+  }
+
+  .tiles {
+    display: grid; gap: 12px; margin-bottom: 28px;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+  }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px 18px;
+  }
+  .tile .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .tile .value { font-size: 27px; font-weight: 600; margin-top: 6px; letter-spacing: -0.02em; }
+  .tile .note  { font-size: 12.5px; color: var(--ink-2); margin-top: 4px; }
+
+  section {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 22px 24px; margin-bottom: 20px;
+  }
+  h2 { font-size: 16px; margin: 0 0 3px; font-weight: 600; }
+  .lede { font-size: 13.5px; color: var(--ink-2); margin: 0 0 18px; }
+
+  .grid2 { display: grid; gap: 20px; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+
+  svg { display: block; width: 100%; overflow: visible; }
+  .tick { fill: var(--muted); font-size: 11.5px; }
+  .barlabel { fill: var(--ink-2); font-size: 12.5px; }
+  .barvalue { fill: var(--ink); font-size: 12.5px; font-weight: 600; }
+  .gridline { stroke: var(--grid); stroke-width: 1; }
+  .baseline { stroke: var(--axis); stroke-width: 1; }
+  .bar { fill: var(--series-1); transition: opacity .12s; }
+  .hit { fill: transparent; cursor: default; }
+  .row:hover .bar { opacity: .78; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th {
+    text-align: left; font-weight: 600; color: var(--muted); font-size: 11.5px;
+    text-transform: uppercase; letter-spacing: .05em;
+    padding: 0 10px 8px 0; border-bottom: 1px solid var(--border);
+  }
+  td { padding: 11px 10px 11px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .dim { color: var(--ink-2); }
+
+  .sev { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; font-size: 12.5px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .sev-HIGH   .dot { background: var(--critical); }
+  .sev-MEDIUM .dot { background: var(--serious); }
+  .sev-LOW    .dot { background: var(--warning); }
+
+  .meter { height: 6px; border-radius: 3px; background: var(--tint); overflow: hidden; min-width: 54px; }
+  .meter > i { display: block; height: 100%; border-radius: 3px; background: var(--series-1); }
+
+  .tip {
+    position: fixed; pointer-events: none; opacity: 0; transform: translate(-50%, -120%);
+    background: var(--ink); color: var(--page); font-size: 12.5px; line-height: 1.4;
+    padding: 7px 10px; border-radius: 7px; white-space: nowrap; z-index: 20;
+    transition: opacity .1s;
+  }
+  .foot { color: var(--muted); font-size: 12.5px; margin-top: 26px; }
+  details summary { cursor: pointer; font-size: 13px; color: var(--ink-2); margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title">Accounts payable control dashboard</h1>
+    <p class="sub" id="subtitle"></p>
+    <div class="badges" id="badges"></div>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Where the money is at risk</h2>
+    <p class="lede" id="lede-control"></p>
+    <div id="chart-control"></div>
+  </section>
+
+  <div class="grid2">
+    <section>
+      <h2>Exposure by month</h2>
+      <p class="lede">Net exposure on invoices dated in each month.</p>
+      <div id="chart-month"></div>
+    </section>
+    <section>
+      <h2>Suppliers carrying the most risk</h2>
+      <p class="lede">The ten suppliers with the largest exposure.</p>
+      <div id="chart-supplier"></div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Did the controls actually work</h2>
+    <p class="lede" id="lede-perf"></p>
+    <div id="perf"></div>
+  </section>
+
+  <section>
+    <h2>Largest single findings</h2>
+    <p class="lede">Ranked by the amount that would have been paid away.</p>
+    <div id="top"></div>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script id="payload" type="application/json">{"generated": "21 September 2026", "company": "Kalahari Components (Pty) Ltd", "period": "October 2025 to September 2026", "extraction_method": "rules_fallback", "extraction_seconds": 0.0, "stats": {"invoices": 284, "checked": 243, "clean": 67, "flagged": 176, "manual_capture": 41, "invoiced": 10589520.53, "exposure": 3325536.06, "exposure_pct": 31.4, "findings": 233}, "by_control": [{"code": "E06_BANK_CHANGE", "name": "Bank details changed", "severity": "HIGH", "findings": 32, "value_at_risk": 1250792.87}, {"code": "E04_NO_PO", "name": "No valid purchase order", "severity": "MEDIUM", "findings": 23, "value_at_risk": 605713.79}, {"code": "E12_GOODS_NOT_RECEIVED", "name": "No goods received note", "severity": "HIGH", "findings": 8, "value_at_risk": 465698.22000000003}, {"code": "E11_INVALID_TAX_INVOICE", "name": "Not a valid tax invoice", "severity": "MEDIUM", "findings": 45, "value_at_risk": 402445.67}, {"code": "E07_UNAPPROVED_SUPPLIER", "name": "Supplier not approved", "severity": "HIGH", "findings": 11, "value_at_risk": 305592.03}, {"code": "E08_ARITHMETIC", "name": "Invoice does not add up", "severity": "MEDIUM", "findings": 58, "value_at_risk": 293676.73}, {"code": "E03_DUPLICATE", "name": "Duplicate invoice", "severity": "HIGH", "findings": 6, "value_at_risk": 245880.47}, {"code": "E10_THRESHOLD_SPLIT", "name": "Split to avoid approval", "severity": "HIGH", "findings": 4, "value_at_risk": 195024.37}, {"code": "E02_QTY_OVER_BILLED", "name": "Quantity over billed", "severity": "HIGH", "findings": 12, "value_at_risk": 101025.71}, {"code": "E01_PRICE_VARIANCE", "name": "Price above the order", "severity": "HIGH", "findings": 16, "value_at_risk": 46592.38}, {"code": "E05_VAT_ERROR", "name": "VAT incorrectly calculated", "severity": "MEDIUM", "findings": 12, "value_at_risk": 1568.32}, {"code": "E09_DATE_ANOMALY", "name": "Invoice date out of sequence", "severity": "MEDIUM", "findings": 6, "value_at_risk": 0.0}], "by_month": [{"month": "2025-10", "invoices": 11, "invoiced": 310019.93, "exceptions_raised": 12, "net_exposure": 56877.69}, {"month": "2025-11", "invoices": 22, "invoiced": 1196398.48, "exceptions_raised": 22, "net_exposure": 303918.2}, {"month": "2025-12", "invoices": 29, "invoiced": 1051415.35, "exceptions_raised": 25, "net_exposure": 456076.79000000004}, {"month": "2026-01", "invoices": 22, "invoiced": 579863.6, "exceptions_raised": 20, "net_exposure": 288154.0}, {"month": "2026-02", "invoices": 12, "invoiced": 874479.1, "exceptions_raised": 10, "net_exposure": 84494.75}, {"month": "2026-03", "invoices": 18, "invoiced": 761697.22, "exceptions_raised": 12, "net_exposure": 65177.93}, {"month": "2026-04", "invoices": 17, "invoiced": 1027168.98, "exceptions_raised": 14, "net_exposure": 225130.56}, {"month": "2026-05", "invoices": 32, "invoiced": 1720442.71, "exceptions_raised": 41, "net_exposure": 721620.86}, {"month": "2026-06", "invoices": 21, "invoiced": 840399.39, "exceptions_raised": 19, "net_exposure": 374607.92}, {"month": "2026-07", "invoices": 19, "invoiced": 912959.88, "exceptions_raised": 23, "net_exposure": 394011.75}, {"month": "2026-08", "invoices": 22, "invoiced": 313098.36, "exceptions_raised": 16, "net_exposure": 99799.40000000001}, {"month": "2026-09", "invoices": 10, "invoiced": 348700.36, "exceptions_raised": 10, "net_exposure": 109629.65}, {"month": "2026-10", "invoices": 6, "invoiced": 371827.11, "exceptions_raised": 7, "net_exposure": 109377.86}, {"month": "2026-11", "invoices": 1, "invoiced": 264318.94, "exceptions_raised": 1, "net_exposure": 34476.38}], "by_supplier": [{"supplier_name": "Nigel Compressor Services (Pty) Ltd", "invoices": 5, "invoiced": 548296.92, "net_exposure": 552023.3300000001}, {"supplier_name": "Roodepoort Motor Rewinds (Pty) Ltd", "invoices": 5, "invoiced": 365256.76, "net_exposure": 396178.52999999997}, {"supplier_name": "Tshwane Pneumatics (Pty) Ltd", "invoices": 5, "invoiced": 522101.64, "net_exposure": 256586.01}, {"supplier_name": "City Deep Cold Storage Spares (Pty) Ltd", "invoices": 11, "invoiced": 1345973.64, "net_exposure": 210943.63999999998}, {"supplier_name": "Sasolburg Pipe and Fittings (Pty) Ltd", "invoices": 8, "invoiced": 217830.88999999998, "net_exposure": 198170.32}, {"supplier_name": "Robertsham Glass and Perspex (Pty) Ltd", "invoices": 5, "invoiced": 489142.19, "net_exposure": 177576.32}, {"supplier_name": "Crown Mines Motor Spares (Pty) Ltd", "invoices": 7, "invoiced": 657532.84, "net_exposure": 154130.61}, {"supplier_name": "Witbank Belting (Pty) Ltd", "invoices": 2, "invoiced": 114153.57999999999, "net_exposure": 114153.57999999999}, {"supplier_name": "Highveld Lubricants (Pty) Ltd Invoice No. INV2508005", "invoices": 1, "invoiced": 110887.52, "net_exposure": 110887.52}, {"supplier_name": "Midrand Bearing Supplies (Pty) Ltd", "invoices": 9, "invoiced": 257895.36000000002, "net_exposure": 107130.17}], "performance": [{"code": "E01_PRICE_VARIANCE", "planted": 18, "found": 16, "hit": 16, "missed": 2, "extra": 0, "recall": 88.9, "precision": 100.0, "name": "Price above the order"}, {"code": "E02_QTY_OVER_BILLED", "planted": 16, "found": 12, "hit": 12, "missed": 4, "extra": 0, "recall": 75.0, "precision": 100.0, "name": "Quantity over billed"}, {"code": "E03_DUPLICATE", "planted": 11, "found": 6, "hit": 5, "missed": 6, "extra": 1, "recall": 45.5, "precision": 83.3, "name": "Duplicate invoice"}, {"code": "E04_NO_PO", "planted": 25, "found": 23, "hit": 23, "missed": 2, "extra": 0, "recall": 92.0, "precision": 100.0, "name": "No valid purchase order"}, {"code": "E05_VAT_ERROR", "planted": 14, "found": 12, "hit": 12, "missed": 2, "extra": 0, "recall": 85.7, "precision": 100.0, "name": "VAT incorrectly calculated"}, {"code": "E06_BANK_CHANGE", "planted": 9, "found": 32, "hit": 8, "missed": 1, "extra": 24, "recall": 88.9, "precision": 25.0, "name": "Bank details changed"}, {"code": "E07_UNAPPROVED_SUPPLIER", "planted": 9, "found": 11, "hit": 8, "missed": 1, "extra": 3, "recall": 88.9, "precision": 72.7, "name": "Supplier not approved"}, {"code": "E08_ARITHMETIC", "planted": 11, "found": 58, "hit": 8, "missed": 3, "extra": 50, "recall": 72.7, "precision": 13.8, "name": "Invoice does not add up"}, {"code": "E09_DATE_ANOMALY", "planted": 10, "found": 6, "hit": 6, "missed": 4, "extra": 0, "recall": 60.0, "precision": 100.0, "name": "Invoice date out of sequence"}, {"code": "E10_THRESHOLD_SPLIT", "planted": 4, "found": 4, "hit": 4, "missed": 0, "extra": 0, "recall": 100.0, "precision": 100.0, "name": "Split to avoid approval"}, {"code": "E11_INVALID_TAX_INVOICE", "planted": 13, "found": 45, "hit": 9, "missed": 4, "extra": 36, "recall": 69.2, "precision": 20.0, "name": "Not a valid tax invoice"}, {"code": "E12_GOODS_NOT_RECEIVED", "planted": 8, "found": 8, "hit": 8, "missed": 0, "extra": 0, "recall": 100.0, "precision": 100.0, "name": "No goods received note"}], "accuracy": {"planted": 148, "caught": 119, "missed": 29, "missed_unreadable": 24, "false_positives": 114, "recall": 80.4, "precision": 51.1, "manual_capture": 41, "extraction_method": "rules_fallback"}, "field_accuracy": {"invoice_number": 85.6, "supplier_name": 32.0, "supplier_vat_number": 69.4, "po_number": 85.9, "invoice_date": 70.8, "bank_name": 46.1, "account_number": 76.4, "subtotal_ex_vat": 85.6, "vat_amount": 85.6, "total_incl_vat": 68.0}, "accuracy_by_group": {"rules_fallback": {"invoices": 284, "accuracy": 70.5}, "scanned": {"invoices": 41, "accuracy": 0.2}, "text layer": {"invoices": 243, "accuracy": 82.4}}, "top_exceptions": [{"invoice_id": "INV-00166", "supplier_name": "Nigel Compressor Services (Pty) Ltd", "invoice_date": "2026-05-21", "code": "E06_BANK_CHANGE", "severity": "HIGH", "value_at_risk": 282489.39, "detail": "The invoice asks for payment into Nedbank account 0657675921. The master file holds Nedbank account 657675921 for Nigel Compressor Services (Pty) Ltd.", "recommendation": "Do not change the banking details off the back of a document. Phone the supplier on the number already held on file, never one printed on the invoice, and confirm before anything is paid."}, {"invoice_id": "INV-00122", "supplier_name": "Tshwane Pneumatics (Pty) Ltd", "invoice_date": "2026-06-04", "code": "E12_GOODS_NOT_RECEIVED", "severity": "HIGH", "value_at_risk": 237235.23, "detail": "Order PO-2026-00042 exists and the supplier has invoiced R237,235.23, but the warehouse has never booked anything in against it.", "recommendation": "Confirm with the warehouse before paying. Either the delivery never arrived or it arrived and was not recorded, and both need fixing."}, {"invoice_id": "INV-00179", "supplier_name": "Robertsham Glass and Perspex (Pty) Ltd", "invoice_date": "2026-07-16", "code": "E12_GOODS_NOT_RECEIVED", "severity": "HIGH", "value_at_risk": 130166.1, "detail": "Order PO-2026-00069 exists and the supplier has invoiced R130,166.10, but the warehouse has never booked anything in against it.", "recommendation": "Confirm with the warehouse before paying. Either the delivery never arrived or it arrived and was not recorded, and both need fixing."}, {"invoice_id": "INV-00141", "supplier_name": "Nigel Compressor Services (Pty) Ltd", "invoice_date": "2025-12-10", "code": "E06_BANK_CHANGE", "severity": "HIGH", "value_at_risk": 124416.91, "detail": "The invoice asks for payment into None account 0657675921. The master file holds Nedbank account 657675921 for Nigel Compressor Services (Pty) Ltd.", "recommendation": "Do not change the banking details off the back of a document. Phone the supplier on the number already held on file, never one printed on the invoice, and confirm before anything is paid."}, {"invoice_id": "INV-00152", "supplier_name": "Roodepoort Motor Rewinds (Pty) Ltd", "invoice_date": "2026-04-23", "code": "E06_BANK_CHANGE", "severity": "HIGH", "value_at_risk": 110961.55, "detail": "The invoice asks for payment into ing Investec Account account 04168918377. The master file holds Investec account 4168918377 for Roodepoort Motor Rewinds (Pty) Ltd.", "recommendation": "Do not change the banking details off the back of a document. Phone the supplier on the number already held on file, never one printed on the invoice, and confirm before anything is paid."}, {"invoice_id": "INV-00223", "supplier_name": "Highveld Lubricants (Pty) Ltd Invoice No. INV2508005", "invoice_date": "2025-11-21", "code": "E07_UNAPPROVED_SUPPLIER", "severity": "HIGH", "value_at_risk": 110887.52, "detail": "The name on the invoice could not be matched to any supplier on the master file. R110,887.52 is being claimed by a party the company has no record of.", "recommendation": "Do not pay until the supplier is identified and loaded properly. An unknown payee is how invoice fraud gets through."}, {"invoice_id": "INV-00176", "supplier_name": "Nigel Compressor Services (Pty) Ltd", "invoice_date": "2025-12-18", "code": "E06_BANK_CHANGE", "severity": "HIGH", "value_at_risk": 102963.05, "detail": "The invoice asks for payment into Nedbank account 0657675921. The master file holds Nedbank account 657675921 for Nigel Compressor Services (Pty) Ltd.", "recommendation": "Do not change the banking details off the back of a document. Phone the supplier on the number already held on file, never one printed on the invoice, and confirm before anything is paid."}, {"invoice_id": "INV-00039", "supplier_name": "Roodepoort Motor Rewinds (Pty) Ltd", "invoice_date": "2026-01-09", "code": "E06_BANK_CHANGE", "severity": "HIGH", "value_at_risk": 87357.86, "detail": "The invoice asks for payment into None account 04168918377. The master file holds Investec account 4168918377 for Roodepoort Motor Rewinds (Pty) Ltd.", "recommendation": "Do not change the banking details off the back of a document. Phone the supplier on the number already held on file, never one printed on the invoice, and confirm before anything is paid."}, {"invoice_id": "INV-00096", "supplier_name": "Witbank Belting (Pty) Ltd", "invoice_date": "2026-07-19", "code": "E04_NO_PO", "severity": "MEDIUM", "value_at_risk": 79976.59, "detail": "No order number appears on the invoice. R79,976.59 is being claimed for goods nobody raised an order for.", "recommendation": "Find out who ordered this and under what authority. Maverick spend is bought at whatever price the supplier felt like."}, {"invoice_id": "INV-00096", "supplier_name": "Witbank Belting (Pty) Ltd", "invoice_date": "2026-07-19", "code": "E07_UNAPPROVED_SUPPLIER", "severity": "HIGH", "value_at_risk": 79976.59, "detail": "Witbank Belting (Pty) Ltd is on the system but was never approved by procurement.", "recommendation": "Route to procurement for vendor onboarding, including tax clearance and bank verification, before any payment is released."}, {"invoice_id": "INV-00222", "supplier_name": "Denver Crane Services (Pty) Ltd", "invoice_date": "2026-05-22", "code": "E11_INVALID_TAX_INVOICE", "severity": "MEDIUM", "value_at_risk": 78370.9, "detail": "The supply is R600,843.56, above the R5 000 full tax invoice threshold, but the document is missing the supplier VAT registration number. The R78,370.90 of input VAT cannot be claimed as it stands.", "recommendation": "Request a compliant tax invoice before the VAT return is filed. The goods can still be paid for, the input tax cannot be claimed."}, {"invoice_id": "INV-00146", "supplier_name": "Highveld Lubricants (Pty) Ltd", "invoice_date": "2025-11-10", "code": "E06_BANK_CHANGE", "severity": "HIGH", "value_at_risk": 75974.12, "detail": "The invoice asks for payment into None account 78748883154. The master file holds First National Bank account 173497462 for Highveld Lubricants (Pty) Ltd.", "recommendation": "Do not change the banking details off the back of a document. Phone the supplier on the number already held on file, never one printed on the invoice, and confirm before anything is paid."}]}</script>
+<script>
+const D = JSON.parse(document.getElementById('payload').textContent);
+const tip = document.getElementById('tip');
+
+const rand = v => 'R' + Math.round(v).toLocaleString('en-ZA');
+const randFull = v => 'R' + v.toLocaleString('en-ZA', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function showTip(e, html) {
+  tip.innerHTML = html;
+  tip.style.left = e.clientX + 'px';
+  tip.style.top = e.clientY + 'px';
+  tip.style.opacity = 1;
+}
+function hideTip() { tip.style.opacity = 0; }
+
+/* ---------------------------------------------------------------- header */
+const methodName = {
+  claude_text: 'Claude, text layer',
+  claude_vision: 'Claude, vision',
+  rules_fallback: 'Pattern matching fallback',
+}[D.extraction_method] || D.extraction_method;
+
+document.getElementById('subtitle').textContent =
+  D.company + '  ·  ' + D.period + '  ·  prepared ' + D.generated;
+
+const badges = ['Read by: ' + methodName, D.stats.invoices + ' invoices', 'Twelve controls'];
+if (D.extraction_seconds >= 1) {
+  badges.push('Batch read in ' + Math.round(D.extraction_seconds) + ' seconds');
+}
+document.getElementById('badges').innerHTML =
+  badges.map(t => '<span class="badge">' + esc(t) + '</span>').join('');
+
+/* ----------------------------------------------------------------- tiles */
+const s = D.stats;
+document.getElementById('tiles').innerHTML = [
+  ['Invoiced value checked', rand(s.invoiced), s.checked + ' invoices passed through the controls'],
+  ['Exposure found', rand(s.exposure), s.exposure_pct + ' percent of the value checked'],
+  ['Invoices flagged', s.flagged, s.findings + ' separate findings raised'],
+  ['Passed every control', s.clean, 'Cleared for payment without a query'],
+  ['Sent for manual capture', s.manual_capture, 'Could not be read well enough to check'],
+].map(([label, value, note]) =>
+  '<div class="tile"><div class="label">' + esc(label) + '</div>' +
+  '<div class="value">' + esc(value) + '</div>' +
+  '<div class="note">' + esc(note) + '</div></div>').join('');
+
+/* ------------------------------------------------------- horizontal bars */
+function fit(text, px) {
+  const max = Math.floor(px / 6.6);
+  return text.length <= max ? text : text.slice(0, Math.max(3, max - 1)).trimEnd() + '\u2026';
+}
+
+function hbars(el, rows, opts) {
+  const ROW = 30, PAD_T = 6, LABEL = opts.labelWidth || 232, VALUE = 96;
+  const W = el.clientWidth || 860;
+  const plot = Math.max(80, W - LABEL - VALUE);
+  const H = rows.length * ROW + PAD_T + 8;
+  const max = Math.max(...rows.map(r => r.value), 1);
+
+  let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" height="' + H + '" role="img">';
+  rows.forEach((r, i) => {
+    const y = PAD_T + i * ROW;
+    const w = Math.max(2, r.value / max * plot);
+    svg += '<g class="row">';
+    svg += '<text class="barlabel" x="0" y="' + (y + 15) + '">' +
+           esc(fit(r.label, LABEL - 12)) + '</text>';
+    svg += '<rect class="bar" x="' + LABEL + '" y="' + (y + 5) + '" width="' + w +
+           '" height="14" rx="4"/>';
+    svg += '<rect class="bar" x="' + LABEL + '" y="' + (y + 5) + '" width="' +
+           Math.min(4, w) + '" height="14"/>';
+    svg += '<text class="barvalue" x="' + (LABEL + w + 9) + '" y="' + (y + 16) + '">' +
+           esc(opts.format(r.value)) + '</text>';
+    svg += '<rect class="hit" x="0" y="' + y + '" width="' + W + '" height="' + ROW +
+           '" data-i="' + i + '"/>';
+    svg += '</g>';
+  });
+  svg += '</svg>';
+  el.innerHTML = svg;
+
+  el.querySelectorAll('.hit').forEach(h => {
+    const r = rows[+h.dataset.i];
+    h.addEventListener('mousemove', e => showTip(e, opts.tip(r)));
+    h.addEventListener('mouseleave', hideTip);
+  });
+}
+
+/* --------------------------------------------------------- vertical bars */
+function vbars(el, rows, opts) {
+  const W = el.clientWidth || 420, H = 240, L = 54, R = 8, T = 10, B = 34;
+  const plotW = W - L - R, plotH = H - T - B;
+  const max = Math.max(...rows.map(r => r.value), 1);
+  const step = plotW / rows.length;
+  const bw = Math.min(28, step * 0.62);
+
+  const ticks = 4;
+  let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" height="' + H + '" role="img">';
+  for (let t = 0; t <= ticks; t++) {
+    const v = max / ticks * t;
+    const y = T + plotH - (v / max) * plotH;
+    svg += '<line class="gridline" x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '"/>';
+    svg += '<text class="tick" x="' + (L - 8) + '" y="' + (y + 4) + '" text-anchor="end">' +
+           esc(opts.axis(v)) + '</text>';
+  }
+  rows.forEach((r, i) => {
+    const h = Math.max(2, r.value / max * plotH);
+    const x = L + i * step + (step - bw) / 2;
+    const y = T + plotH - h;
+    svg += '<g class="row">';
+    svg += '<rect class="bar" x="' + x + '" y="' + y + '" width="' + bw + '" height="' + h + '" rx="4"/>';
+    svg += '<rect class="bar" x="' + x + '" y="' + (T + plotH - Math.min(4, h)) + '" width="' + bw +
+           '" height="' + Math.min(4, h) + '"/>';
+    svg += '<rect class="hit" x="' + (L + i * step) + '" y="' + T + '" width="' + step +
+           '" height="' + plotH + '" data-i="' + i + '"/>';
+    svg += '</g>';
+    if (i % opts.every === 0) {
+      svg += '<text class="tick" x="' + (x + bw / 2) + '" y="' + (H - 14) +
+             '" text-anchor="middle">' + esc(r.label) + '</text>';
+    }
+  });
+  svg += '<line class="baseline" x1="' + L + '" x2="' + (W - R) + '" y1="' + (T + plotH) +
+         '" y2="' + (T + plotH) + '"/></svg>';
+  el.innerHTML = svg;
+
+  el.querySelectorAll('.hit').forEach(h => {
+    const r = rows[+h.dataset.i];
+    h.addEventListener('mousemove', e => showTip(e, opts.tip(r)));
+    h.addEventListener('mouseleave', hideTip);
+  });
+}
+
+/* --------------------------------------------------------------- render */
+const controlRows = D.by_control.map(c => ({
+  label: c.name, value: c.value_at_risk, code: c.code,
+  findings: c.findings, severity: c.severity,
+}));
+const topControl = controlRows[0];
+document.getElementById('lede-control').textContent =
+  topControl
+    ? 'The largest share sits under ' + topControl.label.toLowerCase() + ', ' +
+      randFull(topControl.value) + ' across ' + topControl.findings + ' findings.'
+    : 'No findings were raised.';
+
+hbars(document.getElementById('chart-control'), controlRows, {
+  format: rand,
+  tip: r => '<b>' + esc(r.label) + '</b><br>' + esc(r.code) + ' · ' + r.severity +
+            '<br>' + r.findings + ' findings · ' + randFull(r.value),
+});
+
+const monthLabel = m => {
+  const [y, mo] = m.split('-');
+  return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+mo - 1] +
+         ' ' + y.slice(2);
+};
+vbars(document.getElementById('chart-month'),
+  D.by_month.map(m => ({ label: monthLabel(m.month), value: m.net_exposure, raw: m })), {
+    axis: v => v >= 1000 ? 'R' + Math.round(v / 1000) + 'k' : 'R' + Math.round(v),
+    every: 2,
+    tip: r => '<b>' + esc(r.label) + '</b><br>' + r.raw.invoices + ' invoices · ' +
+              randFull(r.raw.invoiced) + ' invoiced<br>Exposure ' + randFull(r.value),
+  });
+
+hbars(document.getElementById('chart-supplier'),
+  D.by_supplier.map(x => ({
+    label: String(x.supplier_name).replace(' (Pty) Ltd', ''),
+    value: x.net_exposure, raw: x,
+  })), {
+    labelWidth: 176, format: rand,
+    tip: r => '<b>' + esc(r.label) + '</b><br>' + r.raw.invoices + ' invoices · ' +
+              randFull(r.raw.invoiced) + ' invoiced<br>Exposure ' + randFull(r.value),
+  });
+
+/* ------------------------------------------------- control performance */
+const acc = D.accuracy || {};
+document.getElementById('lede-perf').textContent = acc.planted
+  ? 'Every error in this data set was planted on purpose and recorded, so the ' +
+    'controls can be scored rather than trusted. Of ' + acc.planted +
+    ' planted errors the controls caught ' + acc.caught + ', a recall of ' +
+    acc.recall + ' percent, at a precision of ' + acc.precision + ' percent.'
+  : 'Run the accuracy step to score the controls against the planted errors.';
+
+if ((D.performance || []).length) {
+  const rows = D.performance.slice().sort((a, b) => (b.recall || 0) - (a.recall || 0));
+  document.getElementById('perf').innerHTML =
+    '<table><thead><tr><th>Control</th><th class="num">Planted</th>' +
+    '<th class="num">Caught</th><th class="num">False alarms</th>' +
+    '<th>Recall</th><th>Precision</th></tr></thead><tbody>' +
+    rows.map(r =>
+      '<tr><td>' + esc(r.name) + ' <span class="dim">' + esc(r.code.slice(0, 3)) + '</span></td>' +
+      '<td class="num">' + r.planted + '</td>' +
+      '<td class="num">' + r.hit + '</td>' +
+      '<td class="num">' + r.extra + '</td>' +
+      '<td><div style="display:flex;align-items:center;gap:8px">' +
+        '<div class="meter" style="flex:1"><i style="width:' + (r.recall || 0) + '%"></i></div>' +
+        '<span class="num" style="width:44px">' + (r.recall == null ? '—' : r.recall + '%') + '</span>' +
+      '</div></td>' +
+      '<td><div style="display:flex;align-items:center;gap:8px">' +
+        '<div class="meter" style="flex:1"><i style="width:' + (r.precision || 0) + '%"></i></div>' +
+        '<span class="num" style="width:44px">' + (r.precision == null ? '—' : r.precision + '%') + '</span>' +
+      '</div></td></tr>').join('') +
+    '</tbody></table>';
+}
+
+/* ------------------------------------------------------ top exceptions */
+document.getElementById('top').innerHTML =
+  '<table><thead><tr><th>Invoice</th><th>Supplier</th><th>Finding</th>' +
+  '<th class="num">At risk</th></tr></thead><tbody>' +
+  D.top_exceptions.map(e =>
+    '<tr><td class="dim">' + esc(e.invoice_id) + '<br>' + esc(e.invoice_date) + '</td>' +
+    '<td>' + esc(String(e.supplier_name).replace(' (Pty) Ltd', '')) + '</td>' +
+    '<td><span class="sev sev-' + esc(e.severity) + '"><span class="dot"></span>' +
+      esc(e.severity.charAt(0) + e.severity.slice(1).toLowerCase()) + '</span> ' +
+      esc(e.code) + '<br><span class="dim">' + esc(e.detail) + '</span>' +
+      '<details><summary>What the clerk should do</summary><span class="dim">' +
+      esc(e.recommendation) + '</span></details></td>' +
+    '<td class="num">' + randFull(e.value_at_risk) + '</td></tr>').join('') +
+  '</tbody></table>';
+
+document.getElementById('foot').textContent =
+  'Kalahari Components is a fictional company and every figure on this page comes ' +
+  'from generated data. The invoices were read by ' + methodName.toLowerCase() +
+  '. The controls that judged them are ordinary Python, with no model involved.';
+
+addEventListener('resize', () => location.reload());
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+supplier_id,supplier_name,category,vat_number,reg_number,address,contact_email,bank_name,branch_code,account_number,payment_terms_days,approved,date_approved
+SUP-0001,Midrand Bearing Supplies (Pty) Ltd,Bearings and Drives,4310265355,2000/475156/07,"232 Commerce Crescent, Isando",accounts@midrandbearingsupp.co.za,First National Bank,250655,9308836478,60,Y,2025-02-03
+SUP-0002,Vaal Steel Merchants (Pty) Ltd,Steel and Metals,4096043968,2016/715148/07,"127 Rondebult Road, Kempton Park",accounts@vaalsteelmerchants.co.za,Capitec Business,470010,20285660330,45,Y,2024-02-06
+SUP-0003,Protea Hydraulics (Pty) Ltd,Hydraulics,4709743620,2003/433991/07,"98 Main Reef Road, Wadeville",accounts@proteahydraulics.co.za,Investec,580105,783262215,30,Y,2024-02-15
+SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,Electrical,4946420230,2021/942825/07,"170 Kruger Street, Roodepoort",accounts@sandtonelectricalw.co.za,Capitec Business,470010,854779841,30,Y,2021-03-13
+SUP-0005,Boksburg Fastener Co (Pty) Ltd,Fasteners,4796728484,2004/763196/07,"17 Electron Avenue, Wadeville",accounts@boksburgfastenerco.co.za,Investec,580105,2849751901,30,Y,2024-04-14
+SUP-0006,Highveld Lubricants (Pty) Ltd,Lubricants,4347064497,2002/819986/07,"1 North Rand Road, Wadeville",accounts@highveldlubricants.co.za,First National Bank,250655,0173497462,45,Y,2022-11-01
+SUP-0007,Cape Conveyor Systems (Pty) Ltd,Conveyors,4566819266,2014/175366/07,"202 Chilvers Street, Chloorkop",accounts@capeconveyorsystem.co.za,Investec,580105,1697533888,45,Y,2021-01-22
+SUP-0008,Umgeni Valve and Pump (Pty) Ltd,Valves and Pumps,4801010427,2014/735306/07,"46 Sam Green Road, Kempton Park",accounts@umgenivalveandpump.co.za,Capitec Business,470010,2502045665,60,Y,2024-03-07
+SUP-0009,Rand Safety Equipment (Pty) Ltd,Safety and PPE,4678043946,2016/225078/07,"106 Herman Road, Germiston",accounts@randsafetyequipmen.co.za,Capitec Business,470010,02375179999,60,Y,2020-05-15
+SUP-0010,Germiston Tool Hire (Pty) Ltd,Tools,4336812635,2002/765643/07,"194 Herman Road, Chloorkop",accounts@germistontoolhire.co.za,Standard Bank,051001,320010260,30,Y,2023-07-15
+SUP-0011,Karoo Abrasives (Pty) Ltd,Abrasives,4876863215,2009/532045/07,"31 Barlow Road, Spartan",accounts@karooabrasives.co.za,Absa Bank,632005,4414046038,45,Y,2024-05-13
+SUP-0012,Tshwane Pneumatics (Pty) Ltd,Pneumatics,4985326213,2005/689810/07,"125 Barlow Road, Alrode",accounts@tshwanepneumatics.co.za,First National Bank,250655,3340180146,45,Y,2020-04-10
+SUP-0013,Isando Welding Supplies (Pty) Ltd,Welding,4590357816,2005/618238/07,"81 Dekema Road, Alrode",accounts@isandoweldingsuppl.co.za,Nedbank,198765,92730777461,45,Y,2023-09-08
+SUP-0014,Kempton Cable Works (Pty) Ltd,Electrical,4066746330,2016/990882/07,"18 Main Reef Road, Spartan",accounts@kemptoncableworks.co.za,First National Bank,250655,468719544,45,N,
+SUP-0015,Alberton Seal and Gasket (Pty) Ltd,Seals,4766946128,2003/991169/07,"45 Main Reef Road, Chloorkop",accounts@albertonsealandgas.co.za,First National Bank,250655,76774682715,30,Y,2024-08-25
+SUP-0016,Benoni Industrial Paints (Pty) Ltd,Paints and Coatings,4688431792,2017/791325/07,"164 Bond Street, Alrode",accounts@benoniindustrialpa.co.za,Capitec Business,470010,6520186947,30,Y,2020-02-08
+SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,Motors,4443768103,2016/560449/07,"21 Main Reef Road, Spartan",accounts@roodepoortmotorrew.co.za,Investec,580105,04168918377,45,Y,2020-09-27
+SUP-0018,Springs Gearbox Services (Pty) Ltd,Bearings and Drives,4292138514,2014/703508/07,"226 Diesel Road, Boksburg",accounts@springsgearboxserv.co.za,Standard Bank,051001,87770767045,30,Y,2019-10-11
+SUP-0019,Edenvale Filtration (Pty) Ltd,Filtration,4716646430,2000/248188/07,"127 North Rand Road, Germiston",accounts@edenvalefiltration.co.za,First National Bank,250655,571310804,30,N,
+SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,Bearings and Drives,4945218640,2021/957498/07,"238 Commerce Crescent, Kempton Park",accounts@krugersdorpchainan.co.za,Capitec Business,470010,1887809026,60,Y,2021-10-29
+SUP-0021,Witbank Belting (Pty) Ltd,Conveyors,4604536863,2013/635487/07,"125 Kruger Street, Wadeville",accounts@witbankbelting.co.za,Investec,580105,27697013193,45,N,
+SUP-0022,Nigel Compressor Services (Pty) Ltd,Pneumatics,4031702488,2011/391366/07,"55 Main Reef Road, Roodepoort",accounts@nigelcompressorser.co.za,Nedbank,198765,0657675921,60,Y,2022-07-22
+SUP-0023,Modderfontein Chemicals (Pty) Ltd,Chemicals,4286297325,2011/287115/07,"132 Commerce Crescent, Wadeville",accounts@modderfonteinchemi.co.za,Standard Bank,051001,9128660241,30,Y,2021-12-09
+SUP-0024,Randburg Instrumentation (Pty) Ltd,Instrumentation,4476453990,2006/865240/07,"39 Commerce Crescent, Kempton Park",accounts@randburginstrument.co.za,Investec,580105,76652374914,30,Y,2020-10-18
+SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,Pipe and Fittings,4728868642,2005/157849/07,"23 Main Reef Road, Alrode",accounts@sasolburgpipeandfi.co.za,Standard Bank,051001,68910965089,30,Y,2020-01-09
+SUP-0026,Brakpan Sheet Metal (Pty) Ltd,Steel and Metals,4191277618,2012/105985/07,"138 Diesel Road, Wadeville",accounts@brakpansheetmetal.co.za,Investec,580105,330694702,30,Y,2021-06-11
+SUP-0027,Kya Sand Plastics (Pty) Ltd,Plastics,4888235541,2020/699668/07,"40 Chilvers Street, Kempton Park",accounts@kyasandplastics.co.za,Absa Bank,632005,2962016583,30,Y,2021-02-24
+SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,Hydraulics,4374336397,2003/693354/07,"65 Chilvers Street, Wadeville",accounts@wadevillehoseandco.co.za,Nedbank,198765,1651987388,30,Y,2024-08-17
+SUP-0029,Jet Park Packaging (Pty) Ltd,Packaging,4206223375,2016/581084/07,"239 Landmarks Avenue, Alrode",accounts@jetparkpackaging.co.za,First National Bank,250655,294465182,60,Y,2021-12-12
+SUP-0030,Elandsfontein Rubber (Pty) Ltd,Seals,4324904261,2009/360788/07,"76 Main Reef Road, Alrode",accounts@elandsfonteinrubbe.co.za,Nedbank,198765,827736293,30,Y,2023-06-08
+SUP-0031,Sebenza Workwear (Pty) Ltd,Safety and PPE,4137697806,2006/690686/07,"123 Barlow Road, Roodepoort",accounts@sebenzaworkwear.co.za,Nedbank,198765,142247922,30,Y,2025-03-22
+SUP-0032,Linbro Park Hardware (Pty) Ltd,General Hardware,4376480389,2017/782370/07,"149 Chilvers Street, Spartan",accounts@linbroparkhardware.co.za,Investec,580105,0685325346,60,Y,2022-12-20
+SUP-0033,Aeroton Castors (Pty) Ltd,General Hardware,4398129039,2016/383862/07,"60 Dekema Road, Spartan",accounts@aerotoncastors.co.za,Standard Bank,051001,737734820,45,Y,2024-01-30
+SUP-0034,Chamdor Forklift Spares (Pty) Ltd,Materials Handling,4769493085,2021/715353/07,"2 Vlakfontein Road, Alrode",accounts@chamdorforkliftspa.co.za,Standard Bank,051001,924335587,45,Y,2024-05-10
+SUP-0035,Selby Scrap and Recovery (Pty) Ltd,Steel and Metals,4920583702,1998/794803/07,"142 Herman Road, Boksburg",accounts@selbyscrapandrecov.co.za,First National Bank,250655,4740218151,30,Y,2022-12-21
+SUP-0036,Booysens Battery Centre (Pty) Ltd,Electrical,4655761019,2007/815052/07,"35 Herman Road, Boksburg",accounts@booysensbatterycen.co.za,Capitec Business,470010,2238708796,30,Y,2023-02-11
+SUP-0037,Denver Crane Services (Pty) Ltd,Materials Handling,4445358060,2000/230377/07,"63 Main Reef Road, Wadeville",accounts@denvercraneservice.co.za,First National Bank,250655,4719531319,30,Y,2019-10-02
+SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,Fasteners,4220502518,2013/294814/07,"71 Diesel Road, Isando",accounts@clevelandboltsuppl.co.za,Capitec Business,470010,300763464,30,Y,2023-05-20
+SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,Plastics,4519492735,2007/519550/07,"191 Kruger Street, Roodepoort",accounts@robertshamglassand.co.za,Capitec Business,470010,63734875647,30,Y,2020-01-06
+SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,Hydraulics,4746494091,2003/312275/07,"231 North Rand Road, Spartan",accounts@ophirtonhydraulicr.co.za,Capitec Business,470010,2553281416,30,Y,2019-12-26
+SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,Refrigeration,4587048565,2021/881043/07,"12 Rondebult Road, Kempton Park",accounts@citydeepcoldstorag.co.za,Nedbank,198765,2101929685,60,Y,2023-12-10
+SUP-0042,Crown Mines Motor Spares (Pty) Ltd,Motors,4021856678,2011/648490/07,"87 Sam Green Road, Kempton Park",accounts@crownminesmotorspa.co.za,Standard Bank,051001,200689969,60,Y,2022-02-04
+SUP-0043,New Centre Gas and Gear (Pty) Ltd,Welding,4763833892,2000/394935/07,"54 Angus Crescent, Spartan",accounts@newcentregasandgea.co.za,Investec,580105,1829516973,30,Y,2025-03-07
+SUP-0044,Village Main Instruments (Pty) Ltd,Instrumentation,4043496765,2016/725016/07,"56 Vlakfontein Road, Germiston",accounts@villagemaininstrum.co.za,Absa Bank,632005,696049115,30,Y,2023-04-10
+SUP-0045,Salt River Marine Fittings (Pty) Ltd,Pipe and Fittings,4241849051,2017/613931/07,"217 Barlow Road, Boksburg",accounts@saltrivermarinefit.co.za,Absa Bank,632005,037652732,30,Y,2025-07-01

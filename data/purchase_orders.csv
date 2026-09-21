@@ -1,0 +1,521 @@
+po_number,supplier_id,supplier_name,po_date,requester,department,cost_centre,total_ex_vat,approval_level,status
+PO-2026-00001,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-06-17,A. Petersen,Warehouse,CC-300,23550.48,Department Manager,Open
+PO-2026-00002,SUP-0044,Village Main Instruments (Pty) Ltd,2026-05-11,L. Nkosi,Production,CC-100,238595.5,Finance Manager,Open
+PO-2026-00003,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-01-13,J. van Wyk,Warehouse,CC-300,8627.29,Buyer,Open
+PO-2025-00004,SUP-0033,Aeroton Castors (Pty) Ltd,2025-11-13,B. Sithole,Engineering,CC-400,3293.0,Buyer,Open
+PO-2026-00005,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-07-10,F. Adams,Maintenance,CC-200,6588.98,Buyer,Open
+PO-2026-00006,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-07-22,K. Mahlangu,Facilities,CC-600,182876.6,Finance Manager,Open
+PO-2025-00007,SUP-0022,Nigel Compressor Services (Pty) Ltd,2025-12-17,A. Petersen,Engineering,CC-400,108188.62,Finance Manager,Open
+PO-2026-00008,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-07-23,T. Mokoena,Engineering,CC-400,9649.05,Buyer,Open
+PO-2025-00009,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2025-12-10,M. Fourie,Facilities,CC-600,53970.54,Finance Manager,Open
+PO-2026-00010,SUP-0044,Village Main Instruments (Pty) Ltd,2026-04-30,J. van Wyk,Warehouse,CC-300,27301.72,Department Manager,Open
+PO-2026-00011,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-07-20,G. Coetzee,Warehouse,CC-300,1028.51,Buyer,Open
+PO-2026-00012,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-03-23,G. Coetzee,Engineering,CC-400,16268.35,Department Manager,Open
+PO-2025-00013,SUP-0036,Booysens Battery Centre (Pty) Ltd,2025-12-01,P. Dlamini,Production,CC-100,19602.49,Department Manager,Open
+PO-2026-00014,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-07-31,M. Fourie,Engineering,CC-400,18235.5,Department Manager,Open
+PO-2025-00015,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2025-10-20,A. Petersen,Warehouse,CC-300,97403.75,Finance Manager,Open
+PO-2026-00016,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-04-28,T. Mokoena,Quality,CC-500,18262.83,Department Manager,Open
+PO-2025-00017,SUP-0010,Germiston Tool Hire (Pty) Ltd,2025-11-17,D. Pillay,Production,CC-100,11799.16,Department Manager,Open
+PO-2026-00018,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-01-23,N. Khumalo,Quality,CC-500,1034709.85,Chief Financial Officer,Open
+PO-2025-00019,SUP-0031,Sebenza Workwear (Pty) Ltd,2025-10-27,S. Naidoo,Warehouse,CC-300,3343.6,Buyer,Open
+PO-2025-00020,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2025-11-11,D. Pillay,Production,CC-100,61.72,Buyer,Open
+PO-2026-00021,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-01-12,F. Adams,Engineering,CC-400,21664.77,Department Manager,Open
+PO-2026-00022,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-07-22,G. Coetzee,Maintenance,CC-200,710.72,Buyer,Open
+PO-2025-00023,SUP-0027,Kya Sand Plastics (Pty) Ltd,2025-11-07,F. Adams,Production,CC-100,33759.68,Department Manager,Open
+PO-2026-00024,SUP-0013,Isando Welding Supplies (Pty) Ltd,2026-04-02,T. Mokoena,Quality,CC-500,8326.29,Buyer,Open
+PO-2026-00025,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-07-02,S. Naidoo,Engineering,CC-400,10608.08,Department Manager,Open
+PO-2026-00026,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-05-29,R. Botha,Quality,CC-500,10123.89,Department Manager,Open
+PO-2026-00027,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-02-02,N. Khumalo,Quality,CC-500,74837.97,Finance Manager,Open
+PO-2025-00028,SUP-0024,Randburg Instrumentation (Pty) Ltd,2025-12-17,M. Fourie,Quality,CC-500,5119.04,Buyer,Open
+PO-2025-00029,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2025-11-17,J. van Wyk,Facilities,CC-600,19537.6,Department Manager,Open
+PO-2026-00030,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-01-12,B. Sithole,Production,CC-100,3115.27,Buyer,Open
+PO-2026-00031,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-04-22,G. Coetzee,Production,CC-100,2739.68,Buyer,Open
+PO-2025-00032,SUP-0006,Highveld Lubricants (Pty) Ltd,2025-10-16,T. Mokoena,Engineering,CC-400,66064.45,Finance Manager,Open
+PO-2026-00033,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-06-29,P. Dlamini,Maintenance,CC-200,77376.55,Finance Manager,Open
+PO-2025-00034,SUP-0037,Denver Crane Services (Pty) Ltd,2025-10-06,A. Petersen,Warehouse,CC-300,35291.85,Department Manager,Open
+PO-2026-00035,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-03-12,L. Nkosi,Facilities,CC-600,22325.16,Department Manager,Open
+PO-2026-00036,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-04-03,J. van Wyk,Engineering,CC-400,94.04,Buyer,Open
+PO-2025-00037,SUP-0031,Sebenza Workwear (Pty) Ltd,2025-10-21,P. Dlamini,Engineering,CC-400,5452.42,Buyer,Open
+PO-2025-00038,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2025-12-22,T. Mokoena,Warehouse,CC-300,11543.28,Department Manager,Open
+PO-2025-00039,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2025-10-13,F. Adams,Engineering,CC-400,171463.38,Finance Manager,Open
+PO-2026-00040,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-08-24,S. Naidoo,Maintenance,CC-200,8927.6,Buyer,Open
+PO-2026-00041,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-07-29,D. Pillay,Quality,CC-500,13260.08,Department Manager,Open
+PO-2026-00042,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-05-28,L. Nkosi,Facilities,CC-600,206291.5,Finance Manager,Open
+PO-2025-00043,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2025-12-03,L. Nkosi,Facilities,CC-600,48183.8,Department Manager,Open
+PO-2026-00044,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-06-08,K. Mahlangu,Quality,CC-500,200457.29,Finance Manager,Open
+PO-2026-00045,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-08-24,S. Naidoo,Maintenance,CC-200,20875.37,Department Manager,Open
+PO-2026-00046,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-05-11,J. van Wyk,Production,CC-100,69805.82,Finance Manager,Open
+PO-2025-00047,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2025-10-31,G. Coetzee,Engineering,CC-400,158922.73,Finance Manager,Open
+PO-2026-00048,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-07-07,C. Maree,Production,CC-100,12062.34,Department Manager,Open
+PO-2026-00049,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-07-07,N. Khumalo,Engineering,CC-400,728.13,Buyer,Open
+PO-2026-00050,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-07-28,J. van Wyk,Warehouse,CC-300,464.04,Buyer,Open
+PO-2025-00051,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2025-12-15,J. van Wyk,Facilities,CC-600,4358.1,Buyer,Open
+PO-2026-00052,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-07-15,C. Maree,Warehouse,CC-300,75488.6,Finance Manager,Open
+PO-2026-00053,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2026-07-09,B. Sithole,Maintenance,CC-200,459.2,Buyer,Open
+PO-2025-00054,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2025-11-26,R. Botha,Maintenance,CC-200,32240.59,Department Manager,Open
+PO-2026-00055,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-01-05,G. Coetzee,Warehouse,CC-300,25073.22,Department Manager,Open
+PO-2025-00056,SUP-0010,Germiston Tool Hire (Pty) Ltd,2025-10-06,S. Naidoo,Production,CC-100,163201.48,Finance Manager,Open
+PO-2026-00057,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-05-25,D. Pillay,Engineering,CC-400,7648.28,Buyer,Open
+PO-2026-00058,SUP-0044,Village Main Instruments (Pty) Ltd,2026-07-07,J. van Wyk,Production,CC-100,17175.52,Department Manager,Open
+PO-2026-00059,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-01-28,K. Mahlangu,Warehouse,CC-300,2511.0,Buyer,Open
+PO-2026-00060,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2026-07-20,S. Naidoo,Production,CC-100,269.57,Buyer,Open
+PO-2025-00061,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2025-11-12,F. Adams,Quality,CC-500,3182.58,Buyer,Open
+PO-2026-00062,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-04-06,N. Khumalo,Production,CC-100,31296.21,Department Manager,Open
+PO-2025-00063,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2025-11-13,T. Mokoena,Warehouse,CC-300,14581.46,Department Manager,Open
+PO-2026-00064,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-03-25,A. Petersen,Warehouse,CC-300,19766.51,Department Manager,Open
+PO-2025-00065,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2025-10-29,M. Fourie,Warehouse,CC-300,184824.75,Finance Manager,Open
+PO-2025-00066,SUP-0009,Rand Safety Equipment (Pty) Ltd,2025-10-15,F. Adams,Warehouse,CC-300,145.19,Buyer,Open
+PO-2026-00067,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-08-25,B. Sithole,Warehouse,CC-300,10238.48,Department Manager,Open
+PO-2026-00068,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-06-24,L. Nkosi,Quality,CC-500,7050.2,Buyer,Open
+PO-2026-00069,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-07-09,G. Coetzee,Facilities,CC-600,113187.91,Finance Manager,Open
+PO-2026-00070,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-02-27,F. Adams,Quality,CC-500,82458.78,Finance Manager,Open
+PO-2026-00071,SUP-0044,Village Main Instruments (Pty) Ltd,2026-03-16,C. Maree,Maintenance,CC-200,36331.38,Department Manager,Open
+PO-2026-00072,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-04-20,D. Pillay,Maintenance,CC-200,5217.1,Buyer,Open
+PO-2026-00073,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-07-30,J. van Wyk,Warehouse,CC-300,9069.6,Buyer,Open
+PO-2026-00074,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-03-04,C. Maree,Engineering,CC-400,54647.28,Finance Manager,Open
+PO-2026-00075,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-02-16,F. Adams,Engineering,CC-400,31488.25,Department Manager,Open
+PO-2025-00076,SUP-0024,Randburg Instrumentation (Pty) Ltd,2025-12-03,J. van Wyk,Quality,CC-500,9246.58,Buyer,Open
+PO-2026-00077,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-08-25,M. Fourie,Warehouse,CC-300,12872.4,Department Manager,Open
+PO-2026-00078,SUP-0011,Karoo Abrasives (Pty) Ltd,2026-06-22,R. Botha,Engineering,CC-400,825.23,Buyer,Open
+PO-2026-00079,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-04-07,C. Maree,Production,CC-100,12099.48,Department Manager,Open
+PO-2026-00080,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-08-05,S. Naidoo,Facilities,CC-600,23494.98,Department Manager,Open
+PO-2026-00081,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2026-01-12,T. Mokoena,Facilities,CC-600,17272.6,Department Manager,Open
+PO-2026-00082,SUP-0009,Rand Safety Equipment (Pty) Ltd,2026-06-18,D. Pillay,Engineering,CC-400,26590.08,Department Manager,Open
+PO-2026-00083,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-01-07,M. Fourie,Production,CC-100,11051.0,Department Manager,Open
+PO-2026-00084,SUP-0027,Kya Sand Plastics (Pty) Ltd,2026-06-22,J. van Wyk,Maintenance,CC-200,35934.96,Department Manager,Open
+PO-2026-00085,SUP-0009,Rand Safety Equipment (Pty) Ltd,2026-01-23,S. Naidoo,Facilities,CC-600,1752.24,Buyer,Open
+PO-2026-00086,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-06-18,A. Petersen,Engineering,CC-400,163122.0,Finance Manager,Open
+PO-2026-00087,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-05-01,F. Adams,Production,CC-100,18299.95,Department Manager,Open
+PO-2026-00088,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-03-27,D. Pillay,Maintenance,CC-200,1975957.0,Chief Financial Officer,Open
+PO-2026-00089,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-02-02,M. Fourie,Production,CC-100,241997.45,Finance Manager,Open
+PO-2026-00090,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-02-04,D. Pillay,Warehouse,CC-300,37045.88,Department Manager,Open
+PO-2025-00091,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2025-11-17,D. Pillay,Warehouse,CC-300,3749.23,Buyer,Open
+PO-2026-00092,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-03-16,D. Pillay,Quality,CC-500,133654.0,Finance Manager,Open
+PO-2026-00093,SUP-0037,Denver Crane Services (Pty) Ltd,2026-06-05,R. Botha,Engineering,CC-400,146078.12,Finance Manager,Open
+PO-2026-00094,SUP-0044,Village Main Instruments (Pty) Ltd,2026-01-19,R. Botha,Warehouse,CC-300,142221.6,Finance Manager,Open
+PO-2026-00095,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-06-08,B. Sithole,Warehouse,CC-300,11006.17,Department Manager,Open
+PO-2026-00096,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2026-03-09,D. Pillay,Maintenance,CC-200,9903.5,Buyer,Open
+PO-2026-00097,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-06-02,D. Pillay,Engineering,CC-400,3834.75,Buyer,Open
+PO-2026-00098,SUP-0033,Aeroton Castors (Pty) Ltd,2026-02-03,C. Maree,Warehouse,CC-300,2455.19,Buyer,Open
+PO-2026-00099,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-02-03,D. Pillay,Production,CC-100,2457.4,Buyer,Open
+PO-2025-00100,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2025-12-04,L. Nkosi,Facilities,CC-600,4531.75,Buyer,Open
+PO-2025-00101,SUP-0027,Kya Sand Plastics (Pty) Ltd,2025-12-15,P. Dlamini,Quality,CC-500,68770.92,Finance Manager,Open
+PO-2026-00102,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-03-06,L. Nkosi,Warehouse,CC-300,49137.52,Department Manager,Open
+PO-2026-00103,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-06-18,B. Sithole,Production,CC-100,5057.82,Buyer,Open
+PO-2026-00104,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-01-06,L. Nkosi,Engineering,CC-400,17199.95,Department Manager,Open
+PO-2026-00105,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-08-25,C. Maree,Maintenance,CC-200,150890.0,Finance Manager,Open
+PO-2026-00106,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-04-22,P. Dlamini,Warehouse,CC-300,264.44,Buyer,Open
+PO-2026-00107,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-02-05,K. Mahlangu,Production,CC-100,6765.92,Buyer,Open
+PO-2026-00108,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-01-29,C. Maree,Warehouse,CC-300,2164.14,Buyer,Open
+PO-2025-00109,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2025-12-02,B. Sithole,Warehouse,CC-300,234749.36,Finance Manager,Open
+PO-2026-00110,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-05-18,R. Botha,Facilities,CC-600,14548.8,Department Manager,Open
+PO-2026-00111,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-08-18,S. Naidoo,Production,CC-100,117054.88,Finance Manager,Open
+PO-2025-00112,SUP-0003,Protea Hydraulics (Pty) Ltd,2025-10-29,F. Adams,Warehouse,CC-300,29953.55,Department Manager,Open
+PO-2026-00113,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-05-18,G. Coetzee,Facilities,CC-600,29748.41,Department Manager,Open
+PO-2026-00114,SUP-0029,Jet Park Packaging (Pty) Ltd,2026-07-15,F. Adams,Quality,CC-500,11721.68,Department Manager,Open
+PO-2026-00115,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-01-05,S. Naidoo,Quality,CC-500,149671.15,Finance Manager,Open
+PO-2026-00116,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-07-06,G. Coetzee,Engineering,CC-400,3901.32,Buyer,Open
+PO-2025-00117,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2025-12-24,T. Mokoena,Production,CC-100,97630.16,Finance Manager,Open
+PO-2026-00118,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-06-29,S. Naidoo,Quality,CC-500,20132.76,Department Manager,Open
+PO-2025-00119,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2025-12-26,C. Maree,Production,CC-100,1195.56,Buyer,Open
+PO-2025-00120,SUP-0003,Protea Hydraulics (Pty) Ltd,2025-10-01,P. Dlamini,Maintenance,CC-200,33043.91,Department Manager,Open
+PO-2026-00121,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-05-18,C. Maree,Warehouse,CC-300,38209.56,Department Manager,Open
+PO-2026-00122,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-06-26,S. Naidoo,Engineering,CC-400,2925.98,Buyer,Open
+PO-2026-00123,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-05-15,F. Adams,Facilities,CC-600,45026.2,Department Manager,Open
+PO-2026-00124,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2026-02-23,S. Naidoo,Maintenance,CC-200,96208.6,Finance Manager,Open
+PO-2026-00125,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-07-03,S. Naidoo,Engineering,CC-400,12644.52,Department Manager,Open
+PO-2025-00126,SUP-0010,Germiston Tool Hire (Pty) Ltd,2025-10-13,R. Botha,Engineering,CC-400,21189.18,Department Manager,Open
+PO-2026-00127,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-08-05,L. Nkosi,Facilities,CC-600,19401.42,Department Manager,Open
+PO-2026-00128,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-04-20,G. Coetzee,Quality,CC-500,11802.2,Department Manager,Open
+PO-2025-00129,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2025-11-10,P. Dlamini,Facilities,CC-600,16681.32,Department Manager,Open
+PO-2026-00130,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2026-02-16,T. Mokoena,Facilities,CC-600,68364.71,Finance Manager,Open
+PO-2025-00131,SUP-0009,Rand Safety Equipment (Pty) Ltd,2025-10-06,A. Petersen,Production,CC-100,8450.59,Buyer,Open
+PO-2026-00132,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-03-13,K. Mahlangu,Facilities,CC-600,26907.51,Department Manager,Open
+PO-2026-00133,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-04-14,A. Petersen,Production,CC-100,2739.18,Buyer,Open
+PO-2026-00134,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2026-06-24,K. Mahlangu,Engineering,CC-400,16278.4,Department Manager,Open
+PO-2026-00135,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-07-13,S. Naidoo,Warehouse,CC-300,18076.09,Department Manager,Open
+PO-2026-00136,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-01-20,G. Coetzee,Quality,CC-500,583465.86,Chief Financial Officer,Open
+PO-2026-00137,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2026-02-09,D. Pillay,Facilities,CC-600,14207.0,Department Manager,Open
+PO-2026-00138,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-06-08,P. Dlamini,Quality,CC-500,18487.35,Department Manager,Open
+PO-2025-00139,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2025-12-25,S. Naidoo,Maintenance,CC-200,60865.02,Finance Manager,Open
+PO-2026-00140,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-03-16,J. van Wyk,Facilities,CC-600,6047.16,Buyer,Open
+PO-2026-00141,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-05-18,L. Nkosi,Warehouse,CC-300,138281.2,Finance Manager,Open
+PO-2025-00142,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2025-11-07,P. Dlamini,Maintenance,CC-200,26481.38,Department Manager,Open
+PO-2026-00143,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-08-24,L. Nkosi,Warehouse,CC-300,11084.16,Department Manager,Open
+PO-2026-00144,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2026-06-22,M. Fourie,Maintenance,CC-200,114543.46,Finance Manager,Open
+PO-2025-00145,SUP-0032,Linbro Park Hardware (Pty) Ltd,2025-11-10,K. Mahlangu,Production,CC-100,825.63,Buyer,Open
+PO-2026-00146,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2026-05-11,J. van Wyk,Production,CC-100,26611.16,Department Manager,Open
+PO-2025-00147,SUP-0013,Isando Welding Supplies (Pty) Ltd,2025-10-09,A. Petersen,Quality,CC-500,12289.92,Department Manager,Open
+PO-2026-00148,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-07-13,G. Coetzee,Maintenance,CC-200,8795.51,Buyer,Open
+PO-2026-00149,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-03-18,T. Mokoena,Production,CC-100,29450.58,Department Manager,Open
+PO-2026-00150,SUP-0037,Denver Crane Services (Pty) Ltd,2026-04-16,S. Naidoo,Quality,CC-500,522472.66,Chief Financial Officer,Open
+PO-2026-00151,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-07-28,F. Adams,Facilities,CC-600,39124.1,Department Manager,Open
+PO-2025-00152,SUP-0010,Germiston Tool Hire (Pty) Ltd,2025-11-19,G. Coetzee,Warehouse,CC-300,51990.3,Finance Manager,Open
+PO-2025-00153,SUP-0013,Isando Welding Supplies (Pty) Ltd,2025-10-23,P. Dlamini,Engineering,CC-400,36185.23,Department Manager,Open
+PO-2026-00154,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-03-13,M. Fourie,Facilities,CC-600,5366.76,Buyer,Open
+PO-2025-00155,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2025-11-07,D. Pillay,Facilities,CC-600,15823.9,Department Manager,Open
+PO-2026-00156,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-04-10,M. Fourie,Engineering,CC-400,3336.72,Buyer,Open
+PO-2026-00157,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-01-15,R. Botha,Maintenance,CC-200,29756.77,Department Manager,Open
+PO-2026-00158,SUP-0033,Aeroton Castors (Pty) Ltd,2026-07-13,L. Nkosi,Warehouse,CC-300,2512.12,Buyer,Open
+PO-2026-00159,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-08-10,F. Adams,Warehouse,CC-300,14869.78,Department Manager,Open
+PO-2025-00160,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2025-10-31,L. Nkosi,Facilities,CC-600,20874.75,Department Manager,Open
+PO-2026-00161,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2026-04-20,L. Nkosi,Engineering,CC-400,38847.91,Department Manager,Open
+PO-2025-00162,SUP-0003,Protea Hydraulics (Pty) Ltd,2025-10-15,N. Khumalo,Production,CC-100,33187.39,Department Manager,Open
+PO-2025-00163,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2025-10-13,D. Pillay,Warehouse,CC-300,7290.27,Buyer,Open
+PO-2025-00164,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2025-11-03,A. Petersen,Quality,CC-500,4295.16,Buyer,Open
+PO-2026-00165,SUP-0044,Village Main Instruments (Pty) Ltd,2026-05-07,F. Adams,Facilities,CC-600,11720.16,Department Manager,Open
+PO-2026-00166,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-07-06,S. Naidoo,Facilities,CC-600,60867.39,Finance Manager,Open
+PO-2026-00167,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-05-08,R. Botha,Production,CC-100,647.73,Buyer,Open
+PO-2026-00168,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-01-30,A. Petersen,Quality,CC-500,241825.6,Finance Manager,Open
+PO-2026-00169,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-04-02,J. van Wyk,Quality,CC-500,13149.42,Department Manager,Open
+PO-2026-00170,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-07-21,M. Fourie,Engineering,CC-400,2582.11,Buyer,Open
+PO-2026-00171,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-06-30,L. Nkosi,Engineering,CC-400,19702.09,Department Manager,Open
+PO-2025-00172,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2025-11-10,M. Fourie,Maintenance,CC-200,87151.2,Finance Manager,Open
+PO-2025-00173,SUP-0036,Booysens Battery Centre (Pty) Ltd,2025-11-17,J. van Wyk,Engineering,CC-400,6096.51,Buyer,Open
+PO-2026-00174,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-04-20,L. Nkosi,Facilities,CC-600,13603.96,Department Manager,Open
+PO-2025-00175,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2025-10-20,B. Sithole,Engineering,CC-400,11055.7,Department Manager,Open
+PO-2025-00176,SUP-0036,Booysens Battery Centre (Pty) Ltd,2025-10-29,R. Botha,Warehouse,CC-300,45132.06,Department Manager,Open
+PO-2025-00177,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2025-10-20,T. Mokoena,Engineering,CC-400,35027.15,Department Manager,Open
+PO-2026-00178,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-08-18,M. Fourie,Quality,CC-500,229842.56,Finance Manager,Open
+PO-2026-00179,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-06-22,A. Petersen,Production,CC-100,27555.75,Department Manager,Open
+PO-2026-00180,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-07-21,F. Adams,Production,CC-100,11432.36,Department Manager,Open
+PO-2025-00181,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2025-11-04,K. Mahlangu,Facilities,CC-600,4846.2,Buyer,Open
+PO-2026-00182,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-08-04,D. Pillay,Quality,CC-500,5056.22,Buyer,Open
+PO-2025-00183,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2025-10-21,C. Maree,Quality,CC-500,47856.43,Department Manager,Open
+PO-2026-00184,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-06-22,J. van Wyk,Quality,CC-500,28618.32,Department Manager,Open
+PO-2026-00185,SUP-0011,Karoo Abrasives (Pty) Ltd,2026-07-02,F. Adams,Facilities,CC-600,2757.86,Buyer,Open
+PO-2026-00186,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-04-30,K. Mahlangu,Maintenance,CC-200,52950.45,Finance Manager,Open
+PO-2026-00187,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-05-11,R. Botha,Quality,CC-500,1919.54,Buyer,Open
+PO-2025-00188,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2025-12-22,G. Coetzee,Maintenance,CC-200,50918.65,Finance Manager,Open
+PO-2025-00189,SUP-0029,Jet Park Packaging (Pty) Ltd,2025-11-20,J. van Wyk,Production,CC-100,3144.55,Buyer,Open
+PO-2025-00190,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2025-10-20,B. Sithole,Maintenance,CC-200,20470.11,Department Manager,Open
+PO-2026-00191,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-07-29,A. Petersen,Facilities,CC-600,1752.56,Buyer,Open
+PO-2026-00192,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-08-17,C. Maree,Warehouse,CC-300,56611.4,Finance Manager,Open
+PO-2025-00193,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2025-10-17,B. Sithole,Quality,CC-500,87866.42,Finance Manager,Open
+PO-2025-00194,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2025-11-17,R. Botha,Facilities,CC-600,85534.83,Finance Manager,Open
+PO-2026-00195,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-03-16,N. Khumalo,Warehouse,CC-300,16452.0,Department Manager,Open
+PO-2026-00196,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-06-08,N. Khumalo,Engineering,CC-400,85917.48,Finance Manager,Open
+PO-2025-00197,SUP-0037,Denver Crane Services (Pty) Ltd,2025-11-14,A. Petersen,Engineering,CC-400,217114.73,Finance Manager,Open
+PO-2026-00198,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-04-15,G. Coetzee,Maintenance,CC-200,20529.7,Department Manager,Open
+PO-2025-00199,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2025-12-24,C. Maree,Production,CC-100,8136.06,Buyer,Open
+PO-2025-00200,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2025-11-17,N. Khumalo,Facilities,CC-600,191222.16,Finance Manager,Open
+PO-2025-00201,SUP-0031,Sebenza Workwear (Pty) Ltd,2025-12-26,M. Fourie,Quality,CC-500,4272.77,Buyer,Open
+PO-2026-00202,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-07-21,R. Botha,Facilities,CC-600,12146.46,Department Manager,Open
+PO-2025-00203,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2025-12-11,S. Naidoo,Quality,CC-500,33335.68,Department Manager,Open
+PO-2026-00204,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-06-25,T. Mokoena,Warehouse,CC-300,3810.95,Buyer,Open
+PO-2026-00205,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-01-16,G. Coetzee,Maintenance,CC-200,10938.13,Department Manager,Open
+PO-2026-00206,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-02-25,R. Botha,Maintenance,CC-200,1904.88,Buyer,Open
+PO-2025-00207,SUP-0006,Highveld Lubricants (Pty) Ltd,2025-11-20,G. Coetzee,Quality,CC-500,10798.36,Department Manager,Open
+PO-2026-00208,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-07-28,J. van Wyk,Warehouse,CC-300,1275.36,Buyer,Open
+PO-2025-00209,SUP-0031,Sebenza Workwear (Pty) Ltd,2025-11-17,J. van Wyk,Engineering,CC-400,65330.51,Finance Manager,Open
+PO-2025-00210,SUP-0009,Rand Safety Equipment (Pty) Ltd,2025-11-10,M. Fourie,Production,CC-100,265.44,Buyer,Open
+PO-2025-00211,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2025-12-10,D. Pillay,Quality,CC-500,173720.9,Finance Manager,Open
+PO-2026-00212,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-06-16,M. Fourie,Engineering,CC-400,23090.52,Department Manager,Open
+PO-2026-00213,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-07-14,L. Nkosi,Engineering,CC-400,131.9,Buyer,Open
+PO-2026-00214,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-06-01,F. Adams,Engineering,CC-400,16406.43,Department Manager,Open
+PO-2026-00215,SUP-0033,Aeroton Castors (Pty) Ltd,2026-01-02,J. van Wyk,Maintenance,CC-200,1335.44,Buyer,Open
+PO-2026-00216,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-03-16,L. Nkosi,Production,CC-100,56962.84,Finance Manager,Open
+PO-2026-00217,SUP-0044,Village Main Instruments (Pty) Ltd,2026-08-18,R. Botha,Maintenance,CC-200,22255.8,Department Manager,Open
+PO-2026-00218,SUP-0006,Highveld Lubricants (Pty) Ltd,2026-07-10,M. Fourie,Facilities,CC-600,14749.84,Department Manager,Open
+PO-2026-00219,SUP-0022,Nigel Compressor Services (Pty) Ltd,2026-03-05,P. Dlamini,Production,CC-100,38446.72,Department Manager,Open
+PO-2026-00220,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-06-12,G. Coetzee,Engineering,CC-400,76322.85,Finance Manager,Open
+PO-2026-00221,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-04-09,T. Mokoena,Engineering,CC-400,29321.5,Department Manager,Open
+PO-2025-00222,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2025-12-23,N. Khumalo,Warehouse,CC-300,27170.6,Department Manager,Open
+PO-2026-00223,SUP-0033,Aeroton Castors (Pty) Ltd,2026-05-11,D. Pillay,Facilities,CC-600,21175.58,Department Manager,Open
+PO-2026-00224,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-04-24,M. Fourie,Warehouse,CC-300,129046.87,Finance Manager,Open
+PO-2026-00225,SUP-0022,Nigel Compressor Services (Pty) Ltd,2026-05-13,K. Mahlangu,Facilities,CC-600,245642.95,Finance Manager,Open
+PO-2026-00226,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2026-07-02,L. Nkosi,Facilities,CC-600,6095.97,Buyer,Open
+PO-2026-00227,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-03-02,N. Khumalo,Production,CC-100,17267.89,Department Manager,Open
+PO-2026-00228,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-08-21,R. Botha,Warehouse,CC-300,306.39,Buyer,Open
+PO-2025-00229,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2025-10-22,A. Petersen,Quality,CC-500,35755.06,Department Manager,Open
+PO-2025-00230,SUP-0003,Protea Hydraulics (Pty) Ltd,2025-11-17,K. Mahlangu,Production,CC-100,257566.07,Chief Financial Officer,Open
+PO-2025-00231,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2025-12-02,A. Petersen,Warehouse,CC-300,17878.65,Department Manager,Open
+PO-2026-00232,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-05-20,A. Petersen,Quality,CC-500,5175.84,Buyer,Open
+PO-2025-00233,SUP-0006,Highveld Lubricants (Pty) Ltd,2025-12-15,R. Botha,Engineering,CC-400,159417.42,Finance Manager,Open
+PO-2025-00234,SUP-0029,Jet Park Packaging (Pty) Ltd,2025-12-18,D. Pillay,Facilities,CC-600,1570.26,Buyer,Open
+PO-2026-00235,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-07-06,L. Nkosi,Maintenance,CC-200,1483.08,Buyer,Open
+PO-2026-00236,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-07-27,P. Dlamini,Engineering,CC-400,556291.82,Chief Financial Officer,Open
+PO-2026-00237,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-08-14,K. Mahlangu,Facilities,CC-600,32610.75,Department Manager,Open
+PO-2026-00238,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2026-01-20,A. Petersen,Quality,CC-500,4799.76,Buyer,Open
+PO-2026-00239,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-08-11,K. Mahlangu,Warehouse,CC-300,4597.92,Buyer,Open
+PO-2026-00240,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-06-01,N. Khumalo,Maintenance,CC-200,34444.62,Department Manager,Open
+PO-2026-00241,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-06-10,L. Nkosi,Maintenance,CC-200,501900.5,Chief Financial Officer,Open
+PO-2026-00242,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-02-23,S. Naidoo,Warehouse,CC-300,35396.56,Department Manager,Open
+PO-2026-00243,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-04-27,M. Fourie,Quality,CC-500,27442.24,Department Manager,Open
+PO-2026-00244,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-03-18,M. Fourie,Engineering,CC-400,10240.22,Department Manager,Open
+PO-2025-00245,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2025-12-09,B. Sithole,Facilities,CC-600,95035.43,Finance Manager,Open
+PO-2025-00246,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2025-10-31,A. Petersen,Quality,CC-500,22486.4,Department Manager,Open
+PO-2025-00247,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2025-11-17,S. Naidoo,Engineering,CC-400,190407.65,Finance Manager,Open
+PO-2025-00248,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2025-12-24,N. Khumalo,Warehouse,CC-300,78955.54,Finance Manager,Open
+PO-2025-00249,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2025-10-06,L. Nkosi,Production,CC-100,30929.2,Department Manager,Open
+PO-2025-00250,SUP-0029,Jet Park Packaging (Pty) Ltd,2025-10-16,A. Petersen,Warehouse,CC-300,6000.32,Buyer,Open
+PO-2026-00251,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-06-29,C. Maree,Engineering,CC-400,11395.1,Department Manager,Open
+PO-2026-00252,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-07-13,P. Dlamini,Maintenance,CC-200,4151.9,Buyer,Open
+PO-2026-00253,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-07-31,P. Dlamini,Engineering,CC-400,63309.77,Finance Manager,Open
+PO-2026-00254,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-04-03,R. Botha,Warehouse,CC-300,150816.82,Finance Manager,Open
+PO-2025-00255,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2025-11-17,P. Dlamini,Warehouse,CC-300,1946.8,Buyer,Open
+PO-2025-00256,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2025-10-20,D. Pillay,Engineering,CC-400,740597.75,Chief Financial Officer,Open
+PO-2026-00257,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-05-11,D. Pillay,Warehouse,CC-300,6713.42,Buyer,Open
+PO-2026-00258,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-04-09,P. Dlamini,Quality,CC-500,7659.96,Buyer,Open
+PO-2026-00259,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-08-10,J. van Wyk,Warehouse,CC-300,3432.62,Buyer,Open
+PO-2025-00260,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2025-12-22,M. Fourie,Production,CC-100,865.38,Buyer,Open
+PO-2025-00261,SUP-0033,Aeroton Castors (Pty) Ltd,2025-10-03,P. Dlamini,Warehouse,CC-300,1232.1,Buyer,Open
+PO-2025-00262,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2025-12-22,L. Nkosi,Quality,CC-500,2013.66,Buyer,Open
+PO-2025-00263,SUP-0031,Sebenza Workwear (Pty) Ltd,2025-11-03,P. Dlamini,Maintenance,CC-200,10614.5,Department Manager,Open
+PO-2026-00264,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-08-18,T. Mokoena,Quality,CC-500,61259.33,Finance Manager,Open
+PO-2026-00265,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-07-23,N. Khumalo,Engineering,CC-400,24444.04,Department Manager,Open
+PO-2025-00266,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2025-10-01,G. Coetzee,Engineering,CC-400,176430.03,Finance Manager,Open
+PO-2026-00267,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-02-16,P. Dlamini,Facilities,CC-600,20563.73,Department Manager,Open
+PO-2026-00268,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-06-12,B. Sithole,Maintenance,CC-200,14226.78,Department Manager,Open
+PO-2025-00269,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2025-12-24,S. Naidoo,Warehouse,CC-300,7341.64,Buyer,Open
+PO-2026-00270,SUP-0033,Aeroton Castors (Pty) Ltd,2026-05-25,K. Mahlangu,Production,CC-100,3316.56,Buyer,Open
+PO-2025-00271,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2025-12-08,A. Petersen,Facilities,CC-600,4441.8,Buyer,Open
+PO-2026-00272,SUP-0037,Denver Crane Services (Pty) Ltd,2026-01-06,T. Mokoena,Facilities,CC-600,40325.21,Department Manager,Open
+PO-2026-00273,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-06-08,M. Fourie,Facilities,CC-600,321543.6,Chief Financial Officer,Open
+PO-2026-00274,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-03-20,D. Pillay,Engineering,CC-400,4838.08,Buyer,Open
+PO-2026-00275,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-05-18,T. Mokoena,Facilities,CC-600,1227.77,Buyer,Open
+PO-2025-00276,SUP-0024,Randburg Instrumentation (Pty) Ltd,2025-11-27,B. Sithole,Production,CC-100,39058.86,Department Manager,Open
+PO-2025-00277,SUP-0006,Highveld Lubricants (Pty) Ltd,2025-10-24,R. Botha,Engineering,CC-400,49661.56,Department Manager,Open
+PO-2025-00278,SUP-0013,Isando Welding Supplies (Pty) Ltd,2025-10-24,J. van Wyk,Facilities,CC-600,1793.43,Buyer,Open
+PO-2026-00279,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-08-03,M. Fourie,Maintenance,CC-200,16064.48,Department Manager,Open
+PO-2026-00280,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-05-01,C. Maree,Production,CC-100,21254.93,Department Manager,Open
+PO-2026-00281,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-01-05,D. Pillay,Maintenance,CC-200,66757.6,Finance Manager,Open
+PO-2026-00282,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-03-16,L. Nkosi,Production,CC-100,23354.48,Department Manager,Open
+PO-2025-00283,SUP-0022,Nigel Compressor Services (Pty) Ltd,2025-12-08,T. Mokoena,Facilities,CC-600,95909.99,Finance Manager,Open
+PO-2026-00284,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-05-27,S. Naidoo,Facilities,CC-600,14341.58,Department Manager,Open
+PO-2026-00285,SUP-0044,Village Main Instruments (Pty) Ltd,2026-02-12,C. Maree,Quality,CC-500,6056.95,Buyer,Open
+PO-2025-00286,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2025-11-17,G. Coetzee,Quality,CC-500,1633.92,Buyer,Open
+PO-2026-00287,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-07-20,A. Petersen,Warehouse,CC-300,10804.86,Department Manager,Open
+PO-2025-00288,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2025-12-08,D. Pillay,Maintenance,CC-200,8751.92,Buyer,Open
+PO-2026-00289,SUP-0006,Highveld Lubricants (Pty) Ltd,2026-04-03,A. Petersen,Production,CC-100,379249.52,Chief Financial Officer,Open
+PO-2026-00290,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-08-20,K. Mahlangu,Production,CC-100,27103.96,Department Manager,Open
+PO-2026-00291,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-06-22,B. Sithole,Engineering,CC-400,781.12,Buyer,Open
+PO-2026-00292,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-05-28,C. Maree,Facilities,CC-600,25203.72,Department Manager,Open
+PO-2026-00293,SUP-0044,Village Main Instruments (Pty) Ltd,2026-04-10,R. Botha,Facilities,CC-600,23588.75,Department Manager,Open
+PO-2026-00294,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-06-23,L. Nkosi,Quality,CC-500,37485.34,Department Manager,Open
+PO-2026-00295,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-08-10,P. Dlamini,Quality,CC-500,7636.73,Buyer,Open
+PO-2026-00296,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-07-27,A. Petersen,Facilities,CC-600,73937.36,Finance Manager,Open
+PO-2026-00297,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-01-14,C. Maree,Maintenance,CC-200,66964.8,Finance Manager,Open
+PO-2026-00298,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-03-05,J. van Wyk,Engineering,CC-400,9304.2,Buyer,Open
+PO-2026-00299,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-03-11,T. Mokoena,Quality,CC-500,56685.48,Finance Manager,Open
+PO-2026-00300,SUP-0033,Aeroton Castors (Pty) Ltd,2026-03-02,L. Nkosi,Engineering,CC-400,314.72,Buyer,Open
+PO-2026-00301,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-04-30,R. Botha,Production,CC-100,16351.98,Department Manager,Open
+PO-2025-00302,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2025-11-27,N. Khumalo,Quality,CC-500,50769.52,Finance Manager,Open
+PO-2026-00303,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-05-27,L. Nkosi,Production,CC-100,15972.28,Department Manager,Open
+PO-2026-00304,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-08-07,S. Naidoo,Maintenance,CC-200,4766.38,Buyer,Open
+PO-2025-00305,SUP-0037,Denver Crane Services (Pty) Ltd,2025-12-22,C. Maree,Maintenance,CC-200,11720.92,Department Manager,Open
+PO-2025-00306,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2025-10-20,L. Nkosi,Production,CC-100,7251.9,Buyer,Open
+PO-2025-00307,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2025-11-10,S. Naidoo,Quality,CC-500,17375.27,Department Manager,Open
+PO-2025-00308,SUP-0018,Springs Gearbox Services (Pty) Ltd,2025-10-13,D. Pillay,Quality,CC-500,36808.3,Department Manager,Open
+PO-2026-00309,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-06-15,C. Maree,Warehouse,CC-300,10633.9,Department Manager,Open
+PO-2026-00310,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-08-26,A. Petersen,Facilities,CC-600,963.87,Buyer,Open
+PO-2025-00311,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2025-11-05,M. Fourie,Quality,CC-500,196000.85,Finance Manager,Open
+PO-2025-00312,SUP-0036,Booysens Battery Centre (Pty) Ltd,2025-12-01,P. Dlamini,Facilities,CC-600,7557.24,Buyer,Open
+PO-2025-00313,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2025-12-29,N. Khumalo,Maintenance,CC-200,4674.3,Buyer,Open
+PO-2026-00314,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-05-15,D. Pillay,Engineering,CC-400,12664.09,Department Manager,Open
+PO-2025-00315,SUP-0006,Highveld Lubricants (Pty) Ltd,2025-11-10,C. Maree,Production,CC-100,96423.93,Finance Manager,Open
+PO-2025-00316,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2025-10-13,D. Pillay,Production,CC-100,863.25,Buyer,Open
+PO-2026-00317,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-02-24,R. Botha,Facilities,CC-600,20237.22,Department Manager,Open
+PO-2026-00318,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-04-20,A. Petersen,Production,CC-100,34454.56,Department Manager,Open
+PO-2026-00319,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-08-24,J. van Wyk,Facilities,CC-600,35591.35,Department Manager,Open
+PO-2026-00320,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-07-15,R. Botha,Warehouse,CC-300,4715.28,Buyer,Open
+PO-2025-00321,SUP-0022,Nigel Compressor Services (Pty) Ltd,2025-12-12,R. Botha,Engineering,CC-400,24525.5,Department Manager,Open
+PO-2026-00322,SUP-0044,Village Main Instruments (Pty) Ltd,2026-04-14,J. van Wyk,Production,CC-100,20549.18,Department Manager,Open
+PO-2025-00323,SUP-0037,Denver Crane Services (Pty) Ltd,2025-10-13,K. Mahlangu,Engineering,CC-400,11589.92,Department Manager,Open
+PO-2025-00324,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2025-11-03,P. Dlamini,Engineering,CC-400,5124.44,Buyer,Open
+PO-2026-00325,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-07-22,D. Pillay,Engineering,CC-400,274236.5,Chief Financial Officer,Open
+PO-2026-00326,SUP-0006,Highveld Lubricants (Pty) Ltd,2026-05-26,S. Naidoo,Facilities,CC-600,26199.6,Department Manager,Open
+PO-2026-00327,SUP-0033,Aeroton Castors (Pty) Ltd,2026-06-09,R. Botha,Quality,CC-500,305.62,Buyer,Open
+PO-2026-00328,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-04-30,A. Petersen,Warehouse,CC-300,20939.96,Department Manager,Open
+PO-2025-00329,SUP-0024,Randburg Instrumentation (Pty) Ltd,2025-11-20,J. van Wyk,Quality,CC-500,13223.14,Department Manager,Open
+PO-2026-00330,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-06-15,M. Fourie,Production,CC-100,5772.88,Buyer,Open
+PO-2026-00331,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-01-14,J. van Wyk,Engineering,CC-400,6961.23,Buyer,Open
+PO-2026-00332,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-04-27,G. Coetzee,Quality,CC-500,9469.64,Buyer,Open
+PO-2026-00333,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-04-27,M. Fourie,Engineering,CC-400,1865.0,Buyer,Open
+PO-2026-00334,SUP-0022,Nigel Compressor Services (Pty) Ltd,2026-05-20,M. Fourie,Production,CC-100,12047.38,Department Manager,Open
+PO-2026-00335,SUP-0013,Isando Welding Supplies (Pty) Ltd,2026-01-22,D. Pillay,Warehouse,CC-300,6901.9,Buyer,Open
+PO-2026-00336,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-07-27,N. Khumalo,Warehouse,CC-300,201150.25,Finance Manager,Open
+PO-2025-00337,SUP-0033,Aeroton Castors (Pty) Ltd,2025-12-23,S. Naidoo,Quality,CC-500,3153.25,Buyer,Open
+PO-2026-00338,SUP-0044,Village Main Instruments (Pty) Ltd,2026-02-18,M. Fourie,Warehouse,CC-300,27888.5,Department Manager,Open
+PO-2026-00339,SUP-0044,Village Main Instruments (Pty) Ltd,2026-07-20,D. Pillay,Facilities,CC-600,39213.65,Department Manager,Open
+PO-2025-00340,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2025-12-01,R. Botha,Production,CC-100,312123.3,Chief Financial Officer,Open
+PO-2026-00341,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-08-19,D. Pillay,Facilities,CC-600,12761.68,Department Manager,Open
+PO-2026-00342,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-04-21,T. Mokoena,Quality,CC-500,217361.9,Finance Manager,Open
+PO-2025-00343,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2025-12-29,A. Petersen,Quality,CC-500,53043.24,Finance Manager,Open
+PO-2025-00344,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2025-11-21,N. Khumalo,Quality,CC-500,45991.57,Department Manager,Open
+PO-2026-00345,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2026-02-10,P. Dlamini,Maintenance,CC-200,55765.42,Finance Manager,Open
+PO-2025-00346,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2025-12-12,S. Naidoo,Production,CC-100,11217.68,Department Manager,Open
+PO-2026-00347,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-06-02,C. Maree,Warehouse,CC-300,8793.72,Buyer,Open
+PO-2025-00348,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2025-11-06,B. Sithole,Maintenance,CC-200,80794.4,Finance Manager,Open
+PO-2025-00349,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2025-10-29,N. Khumalo,Facilities,CC-600,17429.28,Department Manager,Open
+PO-2026-00350,SUP-0044,Village Main Instruments (Pty) Ltd,2026-01-26,R. Botha,Quality,CC-500,32596.9,Department Manager,Open
+PO-2026-00351,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-02-05,A. Petersen,Production,CC-100,37360.62,Department Manager,Open
+PO-2026-00352,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-01-19,K. Mahlangu,Engineering,CC-400,41627.7,Department Manager,Open
+PO-2026-00353,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-02-18,P. Dlamini,Maintenance,CC-200,42421.0,Department Manager,Open
+PO-2026-00354,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-04-24,P. Dlamini,Quality,CC-500,62113.44,Finance Manager,Open
+PO-2025-00355,SUP-0009,Rand Safety Equipment (Pty) Ltd,2025-11-28,L. Nkosi,Production,CC-100,3468.4,Buyer,Open
+PO-2025-00356,SUP-0006,Highveld Lubricants (Pty) Ltd,2025-12-23,P. Dlamini,Production,CC-100,9318.04,Buyer,Open
+PO-2026-00357,SUP-0005,Boksburg Fastener Co (Pty) Ltd,2026-02-20,F. Adams,Engineering,CC-400,3301.26,Buyer,Open
+PO-2026-00358,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-07-27,M. Fourie,Warehouse,CC-300,508.85,Buyer,Open
+PO-2025-00359,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2025-10-15,J. van Wyk,Engineering,CC-400,39601.21,Department Manager,Open
+PO-2025-00360,SUP-0037,Denver Crane Services (Pty) Ltd,2025-11-10,J. van Wyk,Maintenance,CC-200,38191.79,Department Manager,Open
+PO-2026-00361,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2026-08-03,M. Fourie,Engineering,CC-400,1329.65,Buyer,Open
+PO-2026-00362,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2026-06-19,P. Dlamini,Warehouse,CC-300,6502.25,Buyer,Open
+PO-2026-00363,SUP-0033,Aeroton Castors (Pty) Ltd,2026-01-07,D. Pillay,Warehouse,CC-300,228.25,Buyer,Open
+PO-2026-00364,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-07-15,S. Naidoo,Production,CC-100,1063.68,Buyer,Open
+PO-2026-00365,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2026-04-22,A. Petersen,Maintenance,CC-200,10816.1,Department Manager,Open
+PO-2026-00366,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2026-06-09,M. Fourie,Facilities,CC-600,58826.9,Finance Manager,Open
+PO-2025-00367,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2025-12-25,D. Pillay,Engineering,CC-400,75963.36,Finance Manager,Open
+PO-2026-00368,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-01-26,K. Mahlangu,Warehouse,CC-300,6615.4,Buyer,Open
+PO-2025-00369,SUP-0034,Chamdor Forklift Spares (Pty) Ltd,2025-11-14,C. Maree,Production,CC-100,82916.71,Finance Manager,Open
+PO-2025-00370,SUP-0029,Jet Park Packaging (Pty) Ltd,2025-11-27,P. Dlamini,Engineering,CC-400,5249.16,Buyer,Open
+PO-2026-00371,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-02-23,P. Dlamini,Quality,CC-500,13945.41,Department Manager,Open
+PO-2026-00372,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2026-04-06,F. Adams,Engineering,CC-400,139487.85,Finance Manager,Open
+PO-2026-00373,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-05-25,J. van Wyk,Warehouse,CC-300,24606.42,Department Manager,Open
+PO-2026-00374,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-02-23,J. van Wyk,Production,CC-100,96874.62,Finance Manager,Open
+PO-2026-00375,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-07-21,J. van Wyk,Quality,CC-500,1723.4,Buyer,Open
+PO-2026-00376,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-07-27,F. Adams,Production,CC-100,2045.5,Buyer,Open
+PO-2026-00377,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-05-05,B. Sithole,Maintenance,CC-200,87400.12,Finance Manager,Open
+PO-2026-00378,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-08-03,A. Petersen,Quality,CC-500,29085.79,Department Manager,Open
+PO-2026-00379,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-07-31,A. Petersen,Quality,CC-500,138057.84,Finance Manager,Open
+PO-2026-00380,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-01-13,R. Botha,Production,CC-100,595.42,Buyer,Open
+PO-2026-00381,SUP-0004,Sandton Electrical Wholesale (Pty) Ltd,2026-01-01,L. Nkosi,Maintenance,CC-200,2002.55,Buyer,Open
+PO-2026-00382,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2026-04-22,R. Botha,Warehouse,CC-300,35943.0,Department Manager,Open
+PO-2026-00383,SUP-0027,Kya Sand Plastics (Pty) Ltd,2026-01-28,C. Maree,Production,CC-100,38121.48,Department Manager,Open
+PO-2025-00384,SUP-0033,Aeroton Castors (Pty) Ltd,2025-11-10,C. Maree,Facilities,CC-600,1124.12,Buyer,Open
+PO-2026-00385,SUP-0022,Nigel Compressor Services (Pty) Ltd,2026-07-01,G. Coetzee,Engineering,CC-400,2931.2,Buyer,Open
+PO-2025-00386,SUP-0022,Nigel Compressor Services (Pty) Ltd,2025-12-03,N. Khumalo,Production,CC-100,3072.09,Buyer,Open
+PO-2025-00387,SUP-0013,Isando Welding Supplies (Pty) Ltd,2025-10-07,J. van Wyk,Warehouse,CC-300,9841.4,Buyer,Open
+PO-2026-00388,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-08-07,L. Nkosi,Quality,CC-500,1081.18,Buyer,Open
+PO-2026-00389,SUP-0022,Nigel Compressor Services (Pty) Ltd,2026-03-09,C. Maree,Warehouse,CC-300,149857.91,Finance Manager,Open
+PO-2026-00390,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-02-04,T. Mokoena,Production,CC-100,924.01,Buyer,Open
+PO-2026-00391,SUP-0027,Kya Sand Plastics (Pty) Ltd,2026-04-20,N. Khumalo,Facilities,CC-600,15381.15,Department Manager,Open
+PO-2026-00392,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-02-25,K. Mahlangu,Production,CC-100,19104.82,Department Manager,Open
+PO-2026-00393,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-01-05,A. Petersen,Engineering,CC-400,695.91,Buyer,Open
+PO-2025-00394,SUP-0031,Sebenza Workwear (Pty) Ltd,2025-12-01,J. van Wyk,Production,CC-100,12324.57,Department Manager,Open
+PO-2026-00395,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-08-24,J. van Wyk,Facilities,CC-600,5133.76,Buyer,Open
+PO-2025-00396,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2025-11-17,C. Maree,Quality,CC-500,40179.33,Department Manager,Open
+PO-2025-00397,SUP-0017,Roodepoort Motor Rewinds (Pty) Ltd,2025-11-24,D. Pillay,Facilities,CC-600,80612.58,Finance Manager,Open
+PO-2026-00398,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-06-08,R. Botha,Quality,CC-500,2580.8,Buyer,Open
+PO-2026-00399,SUP-0027,Kya Sand Plastics (Pty) Ltd,2026-08-14,J. van Wyk,Production,CC-100,11012.9,Department Manager,Open
+PO-2026-00400,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-07-08,A. Petersen,Facilities,CC-600,15369.16,Department Manager,Open
+PO-2026-00401,SUP-0009,Rand Safety Equipment (Pty) Ltd,2026-04-20,J. van Wyk,Production,CC-100,13312.62,Department Manager,Open
+PO-2026-00402,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-03-17,S. Naidoo,Quality,CC-500,257753.75,Chief Financial Officer,Open
+PO-2026-00403,SUP-0022,Nigel Compressor Services (Pty) Ltd,2026-06-01,K. Mahlangu,Facilities,CC-600,45624.4,Department Manager,Open
+PO-2025-00404,SUP-0010,Germiston Tool Hire (Pty) Ltd,2025-11-21,S. Naidoo,Engineering,CC-400,52555.26,Finance Manager,Open
+PO-2026-00405,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-02-04,L. Nkosi,Facilities,CC-600,57049.2,Finance Manager,Open
+PO-2025-00406,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2025-11-28,K. Mahlangu,Facilities,CC-600,16102.22,Department Manager,Open
+PO-2026-00407,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-08-12,C. Maree,Warehouse,CC-300,26476.44,Department Manager,Open
+PO-2026-00408,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-05-25,D. Pillay,Quality,CC-500,95489.62,Finance Manager,Open
+PO-2026-00409,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2026-02-27,S. Naidoo,Maintenance,CC-200,48690.71,Department Manager,Open
+PO-2025-00410,SUP-0009,Rand Safety Equipment (Pty) Ltd,2025-10-06,A. Petersen,Warehouse,CC-300,466.92,Buyer,Open
+PO-2026-00411,SUP-0033,Aeroton Castors (Pty) Ltd,2026-08-18,K. Mahlangu,Warehouse,CC-300,198.63,Buyer,Open
+PO-2026-00412,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-06-25,D. Pillay,Engineering,CC-400,2293.35,Buyer,Open
+PO-2026-00413,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2026-08-12,M. Fourie,Warehouse,CC-300,54225.0,Finance Manager,Open
+PO-2026-00414,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-05-18,N. Khumalo,Facilities,CC-600,48698.7,Department Manager,Open
+PO-2025-00415,SUP-0036,Booysens Battery Centre (Pty) Ltd,2025-12-18,D. Pillay,Production,CC-100,15396.4,Department Manager,Open
+PO-2026-00416,SUP-0029,Jet Park Packaging (Pty) Ltd,2026-03-18,M. Fourie,Maintenance,CC-200,3897.36,Buyer,Open
+PO-2025-00417,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2025-12-08,B. Sithole,Quality,CC-500,3263.88,Buyer,Open
+PO-2026-00418,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-04-14,R. Botha,Warehouse,CC-300,21939.75,Department Manager,Open
+PO-2025-00419,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2025-10-13,A. Petersen,Quality,CC-500,13430.67,Department Manager,Open
+PO-2026-00420,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-07-23,N. Khumalo,Quality,CC-500,11167.37,Department Manager,Open
+PO-2026-00421,SUP-0040,Ophirton Hydraulic Rams (Pty) Ltd,2026-04-09,S. Naidoo,Production,CC-100,46603.53,Department Manager,Open
+PO-2026-00422,SUP-0013,Isando Welding Supplies (Pty) Ltd,2026-04-13,S. Naidoo,Maintenance,CC-200,10952.16,Department Manager,Open
+PO-2026-00423,SUP-0027,Kya Sand Plastics (Pty) Ltd,2026-02-27,J. van Wyk,Quality,CC-500,8690.28,Buyer,Open
+PO-2025-00424,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2025-11-17,F. Adams,Maintenance,CC-200,44795.76,Department Manager,Open
+PO-2026-00425,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2026-01-05,M. Fourie,Warehouse,CC-300,3547.16,Buyer,Open
+PO-2025-00426,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2025-10-13,T. Mokoena,Warehouse,CC-300,640.0,Buyer,Open
+PO-2026-00427,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2026-08-21,S. Naidoo,Quality,CC-500,23079.0,Department Manager,Open
+PO-2025-00428,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2025-10-31,K. Mahlangu,Warehouse,CC-300,4463.2,Buyer,Open
+PO-2026-00429,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-01-12,P. Dlamini,Production,CC-100,11829.2,Department Manager,Open
+PO-2026-00430,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-02-09,K. Mahlangu,Quality,CC-500,973.68,Buyer,Open
+PO-2026-00431,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-03-30,T. Mokoena,Production,CC-100,19733.76,Department Manager,Open
+PO-2026-00432,SUP-0006,Highveld Lubricants (Pty) Ltd,2026-06-25,N. Khumalo,Facilities,CC-600,10866.6,Department Manager,Open
+PO-2026-00433,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-01-16,R. Botha,Production,CC-100,2625.21,Buyer,Open
+PO-2026-00434,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-02-25,C. Maree,Maintenance,CC-200,13807.0,Department Manager,Open
+PO-2025-00435,SUP-0022,Nigel Compressor Services (Pty) Ltd,2025-12-29,T. Mokoena,Quality,CC-500,87201.04,Finance Manager,Open
+PO-2026-00436,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2026-05-25,K. Mahlangu,Engineering,CC-400,2508.2,Buyer,Open
+PO-2026-00437,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-03-02,M. Fourie,Production,CC-100,10559.25,Department Manager,Open
+PO-2026-00438,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-04-02,M. Fourie,Engineering,CC-400,15452.34,Department Manager,Open
+PO-2026-00439,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-06-01,N. Khumalo,Facilities,CC-600,421.89,Buyer,Open
+PO-2025-00440,SUP-0036,Booysens Battery Centre (Pty) Ltd,2025-10-17,R. Botha,Warehouse,CC-300,15537.37,Department Manager,Open
+PO-2026-00441,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-06-22,T. Mokoena,Engineering,CC-400,113026.9,Finance Manager,Open
+PO-2025-00442,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2025-10-24,M. Fourie,Maintenance,CC-200,15730.18,Department Manager,Open
+PO-2026-00443,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-04-09,A. Petersen,Quality,CC-500,11572.97,Department Manager,Open
+PO-2026-00444,SUP-0023,Modderfontein Chemicals (Pty) Ltd,2026-05-20,C. Maree,Production,CC-100,38108.44,Department Manager,Open
+PO-2026-00445,SUP-0033,Aeroton Castors (Pty) Ltd,2026-03-16,M. Fourie,Facilities,CC-600,1023.6,Buyer,Open
+PO-2026-00446,SUP-0033,Aeroton Castors (Pty) Ltd,2026-05-21,K. Mahlangu,Quality,CC-500,4378.68,Buyer,Open
+PO-2025-00447,SUP-0027,Kya Sand Plastics (Pty) Ltd,2025-12-05,L. Nkosi,Maintenance,CC-200,5834.82,Buyer,Open
+PO-2026-00448,SUP-0035,Selby Scrap and Recovery (Pty) Ltd,2026-02-09,N. Khumalo,Production,CC-100,42358.37,Department Manager,Open
+PO-2026-00449,SUP-0039,Robertsham Glass and Perspex (Pty) Ltd,2026-08-03,M. Fourie,Production,CC-100,26843.39,Department Manager,Open
+PO-2026-00450,SUP-0037,Denver Crane Services (Pty) Ltd,2026-07-01,P. Dlamini,Engineering,CC-400,12377.29,Department Manager,Open
+PO-2026-00451,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-05-07,J. van Wyk,Maintenance,CC-200,3561.24,Buyer,Open
+PO-2026-00452,SUP-0044,Village Main Instruments (Pty) Ltd,2026-01-12,P. Dlamini,Quality,CC-500,3128.02,Buyer,Open
+PO-2026-00453,SUP-0044,Village Main Instruments (Pty) Ltd,2026-05-13,T. Mokoena,Maintenance,CC-200,58544.9,Finance Manager,Open
+PO-2026-00454,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-03-27,S. Naidoo,Maintenance,CC-200,384.59,Buyer,Open
+PO-2026-00455,SUP-0011,Karoo Abrasives (Pty) Ltd,2026-04-30,T. Mokoena,Engineering,CC-400,36787.5,Department Manager,Open
+PO-2026-00456,SUP-0037,Denver Crane Services (Pty) Ltd,2026-08-10,L. Nkosi,Production,CC-100,17070.5,Department Manager,Open
+PO-2026-00457,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-03-31,N. Khumalo,Production,CC-100,380158.5,Chief Financial Officer,Open
+PO-2026-00458,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-07-01,A. Petersen,Quality,CC-500,285.68,Buyer,Open
+PO-2026-00459,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-01-02,S. Naidoo,Warehouse,CC-300,11914.81,Department Manager,Open
+PO-2026-00460,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-01-01,B. Sithole,Engineering,CC-400,60053.63,Finance Manager,Open
+PO-2026-00461,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-07-17,M. Fourie,Engineering,CC-400,8870.5,Buyer,Open
+PO-2026-00462,SUP-0011,Karoo Abrasives (Pty) Ltd,2026-06-01,T. Mokoena,Production,CC-100,3075.8,Buyer,Open
+PO-2026-00463,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-03-09,S. Naidoo,Quality,CC-500,2242.73,Buyer,Open
+PO-2026-00464,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-08-11,F. Adams,Production,CC-100,124226.64,Finance Manager,Open
+PO-2026-00465,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2026-08-26,L. Nkosi,Quality,CC-500,6175.98,Buyer,Open
+PO-2026-00466,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2026-05-28,C. Maree,Warehouse,CC-300,10482.29,Department Manager,Open
+PO-2026-00467,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-05-26,G. Coetzee,Engineering,CC-400,15390.4,Department Manager,Open
+PO-2026-00468,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-08-24,R. Botha,Quality,CC-500,6849.8,Buyer,Open
+PO-2026-00469,SUP-0029,Jet Park Packaging (Pty) Ltd,2026-07-06,D. Pillay,Quality,CC-500,3866.8,Buyer,Open
+PO-2026-00470,SUP-0027,Kya Sand Plastics (Pty) Ltd,2026-05-05,T. Mokoena,Engineering,CC-400,19685.72,Department Manager,Open
+PO-2026-00471,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-02-18,G. Coetzee,Warehouse,CC-300,26809.86,Department Manager,Open
+PO-2025-00472,SUP-0016,Benoni Industrial Paints (Pty) Ltd,2025-12-29,M. Fourie,Warehouse,CC-300,15967.2,Department Manager,Open
+PO-2026-00473,SUP-0024,Randburg Instrumentation (Pty) Ltd,2026-05-25,M. Fourie,Maintenance,CC-200,85414.6,Finance Manager,Open
+PO-2026-00474,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-07-06,D. Pillay,Quality,CC-500,305940.65,Chief Financial Officer,Open
+PO-2026-00475,SUP-0041,City Deep Cold Storage Spares (Pty) Ltd,2026-07-29,S. Naidoo,Facilities,CC-600,273633.5,Chief Financial Officer,Open
+PO-2026-00476,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2026-02-24,L. Nkosi,Production,CC-100,29325.06,Department Manager,Open
+PO-2026-00477,SUP-0033,Aeroton Castors (Pty) Ltd,2026-03-30,D. Pillay,Warehouse,CC-300,8023.16,Buyer,Open
+PO-2025-00478,SUP-0002,Vaal Steel Merchants (Pty) Ltd,2025-11-24,B. Sithole,Production,CC-100,101765.88,Finance Manager,Open
+PO-2026-00479,SUP-0044,Village Main Instruments (Pty) Ltd,2026-05-06,K. Mahlangu,Facilities,CC-600,52718.82,Finance Manager,Open
+PO-2026-00480,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-05-07,R. Botha,Maintenance,CC-200,3172.66,Buyer,Open
+PO-2025-00481,SUP-0044,Village Main Instruments (Pty) Ltd,2025-12-08,B. Sithole,Facilities,CC-600,105924.5,Finance Manager,Open
+PO-2025-00482,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2025-12-03,B. Sithole,Engineering,CC-400,51403.84,Finance Manager,Open
+PO-2026-00483,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2026-04-28,S. Naidoo,Maintenance,CC-200,6530.58,Buyer,Open
+PO-2026-00484,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2026-06-04,C. Maree,Production,CC-100,53422.6,Finance Manager,Open
+PO-2026-00485,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-02-24,J. van Wyk,Quality,CC-500,7159.94,Buyer,Open
+PO-2025-00486,SUP-0003,Protea Hydraulics (Pty) Ltd,2025-11-25,L. Nkosi,Engineering,CC-400,17022.66,Department Manager,Open
+PO-2026-00487,SUP-0012,Tshwane Pneumatics (Pty) Ltd,2026-08-05,M. Fourie,Production,CC-100,1834.83,Buyer,Open
+PO-2025-00488,SUP-0001,Midrand Bearing Supplies (Pty) Ltd,2025-10-20,L. Nkosi,Warehouse,CC-300,53366.72,Finance Manager,Open
+PO-2026-00489,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-01-05,S. Naidoo,Engineering,CC-400,1889.1,Buyer,Open
+PO-2025-00490,SUP-0030,Elandsfontein Rubber (Pty) Ltd,2025-12-23,D. Pillay,Quality,CC-500,6940.38,Buyer,Open
+PO-2025-00491,SUP-0045,Salt River Marine Fittings (Pty) Ltd,2025-12-18,P. Dlamini,Production,CC-100,44331.5,Department Manager,Open
+PO-2026-00492,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2026-08-03,N. Khumalo,Production,CC-100,13015.21,Department Manager,Open
+PO-2026-00493,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-02-09,R. Botha,Facilities,CC-600,55676.1,Finance Manager,Open
+PO-2025-00494,SUP-0044,Village Main Instruments (Pty) Ltd,2025-12-31,P. Dlamini,Engineering,CC-400,59415.81,Finance Manager,Open
+PO-2026-00495,SUP-0042,Crown Mines Motor Spares (Pty) Ltd,2026-07-06,A. Petersen,Maintenance,CC-200,9358.26,Buyer,Open
+PO-2026-00496,SUP-0008,Umgeni Valve and Pump (Pty) Ltd,2026-03-13,G. Coetzee,Engineering,CC-400,249864.39,Finance Manager,Open
+PO-2026-00497,SUP-0011,Karoo Abrasives (Pty) Ltd,2026-02-03,F. Adams,Production,CC-100,2088.87,Buyer,Open
+PO-2026-00498,SUP-0010,Germiston Tool Hire (Pty) Ltd,2026-01-07,C. Maree,Warehouse,CC-300,280951.31,Chief Financial Officer,Open
+PO-2026-00499,SUP-0018,Springs Gearbox Services (Pty) Ltd,2026-06-29,G. Coetzee,Engineering,CC-400,15287.46,Department Manager,Open
+PO-2026-00500,SUP-0032,Linbro Park Hardware (Pty) Ltd,2026-03-09,S. Naidoo,Quality,CC-500,5040.4,Buyer,Open
+PO-2026-00501,SUP-0003,Protea Hydraulics (Pty) Ltd,2026-01-23,G. Coetzee,Maintenance,CC-200,136483.96,Finance Manager,Open
+PO-2026-00502,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-08-24,N. Khumalo,Warehouse,CC-300,14467.7,Department Manager,Open
+PO-2026-00503,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2026-04-20,J. van Wyk,Engineering,CC-400,10202.3,Department Manager,Open
+PO-2025-00504,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2025-11-24,L. Nkosi,Quality,CC-500,28892.15,Department Manager,Open
+PO-2025-00505,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2025-10-21,B. Sithole,Facilities,CC-600,3524.84,Buyer,Open
+PO-2026-00506,SUP-0036,Booysens Battery Centre (Pty) Ltd,2026-03-24,F. Adams,Facilities,CC-600,14425.38,Department Manager,Open
+PO-2025-00507,SUP-0038,Cleveland Bolt Supplies (Pty) Ltd,2025-10-10,L. Nkosi,Maintenance,CC-200,3941.7,Buyer,Open
+PO-2025-00508,SUP-0025,Sasolburg Pipe and Fittings (Pty) Ltd,2025-12-04,G. Coetzee,Quality,CC-500,10461.05,Department Manager,Open
+PO-2026-00509,SUP-0026,Brakpan Sheet Metal (Pty) Ltd,2026-04-29,P. Dlamini,Warehouse,CC-300,62043.1,Finance Manager,Open
+PO-2026-00510,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-02-16,L. Nkosi,Warehouse,CC-300,121.14,Buyer,Open
+PO-2026-00511,SUP-0009,Rand Safety Equipment (Pty) Ltd,2026-07-27,K. Mahlangu,Facilities,CC-600,231.44,Buyer,Open
+PO-2026-00512,SUP-0043,New Centre Gas and Gear (Pty) Ltd,2026-01-30,F. Adams,Production,CC-100,6391.11,Buyer,Open
+PO-2025-00513,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2025-11-17,T. Mokoena,Maintenance,CC-200,9451.04,Buyer,Open
+PO-2026-00514,SUP-0037,Denver Crane Services (Pty) Ltd,2026-06-24,D. Pillay,Maintenance,CC-200,13209.41,Department Manager,Open
+PO-2025-00515,SUP-0015,Alberton Seal and Gasket (Pty) Ltd,2025-10-22,B. Sithole,Quality,CC-500,157.16,Buyer,Open
+PO-2026-00516,SUP-0007,Cape Conveyor Systems (Pty) Ltd,2026-07-03,B. Sithole,Warehouse,CC-300,33876.36,Department Manager,Open
+PO-2026-00517,SUP-0028,Wadeville Hose and Coupling (Pty) Ltd,2026-04-20,P. Dlamini,Facilities,CC-600,82697.6,Finance Manager,Open
+PO-2026-00518,SUP-0031,Sebenza Workwear (Pty) Ltd,2026-02-26,K. Mahlangu,Production,CC-100,32372.59,Department Manager,Open
+PO-2026-00519,SUP-0013,Isando Welding Supplies (Pty) Ltd,2026-01-22,T. Mokoena,Maintenance,CC-200,27890.87,Department Manager,Open
+PO-2025-00520,SUP-0020,Krugersdorp Chain and Sprocket (Pty) Ltd,2025-12-29,L. Nkosi,Warehouse,CC-300,6628.45,Buyer,Open
